@@ -36,7 +36,7 @@ This is the internal repo to for Project Management of the IPFS GUI project.
   - [Project OKR](./OKR.md)
   - [Project Requirements Document](./PRD.md)
 - Design
-  - [Assets in Google Drive]()
+  - Assets in Google Drive (soon™)
   - Invision
     - [Webui](https://projects.invisionapp.com/d/main#/projects/prototypes/12627557)
   - [Design Tools Research](https://docs.google.com/document/d/1qJyfwgcMg8l3Tk3aYxF38iyYRhkEf3nlLNqOw4ZiW_8/edit)
