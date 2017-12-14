@@ -1,6 +1,6 @@
 # 🔒 IPFS GUI
 
-> Make IPFS GUIs beautiful, modular reusable (WebComponents) and unified!
+> Make IPFS GUIs beautiful with a common language and a unified styleguide! Bonus points for modularity and reusability (WebComponents)!
 
 This is the internal repo to for Project Management of the IPFS GUI project.
 
