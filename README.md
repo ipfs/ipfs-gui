@@ -35,6 +35,7 @@ This is the internal repo to for Project Management of the IPFS GUI project.
   - [Project Work Plan & Description](https://docs.google.com/document/d/1HzwTYo4BDDH4WIh0EULh0U9_WnT84FacDUdVtTExluQ/edit#heading=h.a415cvyt09h4)
   - [Project OKR](./OKR.md)
   - [Project Requirements Document](./PRD.md)
+  - Weekly Sync Up - Thursdays at 5PM UTC - https://protocol.zoom.us/j/497645692
 - Design
   - Assets in Google Drive (soon™)
   - Invision
