@@ -33,13 +33,14 @@ This is the internal repo to for Project Management of the IPFS GUI project.
 
 - PM
   - [Project Work Plan & Description](https://docs.google.com/document/d/1HzwTYo4BDDH4WIh0EULh0U9_WnT84FacDUdVtTExluQ/edit#heading=h.a415cvyt09h4)
+  - [Main Google Drive folder](https://drive.google.com/drive/u/1/folders/1xu_lv1jsatKnwyFcjd_fDsg3rCi9550u)
   - [Project OKR](./OKR.md)
   - [Project Requirements Document](./PRD.md)
   - Weekly Sync Up - Thursdays at 5PM UTC - https://protocol.zoom.us/j/497645692
 - Design
   - Assets in Google Drive (soon™)
-  - Invision
-    - [Webui](https://projects.invisionapp.com/d/main#/projects/prototypes/12627557)
+  - Zeplin
+    - [WebUI Wireframe](https://app.zeplin.io/project/5a32d45d1a17248135241058)
   - [Design Tools Research](https://docs.google.com/document/d/1qJyfwgcMg8l3Tk3aYxF38iyYRhkEf3nlLNqOw4ZiW_8/edit)
 - Code
   - [webui](https://github.com/ipfs/webui)
