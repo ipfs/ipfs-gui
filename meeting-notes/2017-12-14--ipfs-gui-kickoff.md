@@ -23,7 +23,10 @@
   - Shall we have Weekly or biweekly checkins?
   - Shall we have a Slack Channel?
 - Next action items
+
 ## Notes:
+
+Recording: https://drive.google.com/drive/folders/1lPazxEJwVHRJeV_apfJIF3If2OiWzIyP?usp=sharing
 
 - WebComponent'izing is a secondary objective to this project
 - Finding the IPFS GUI Styleguide and Language is the top priority
