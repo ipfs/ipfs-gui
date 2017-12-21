@@ -28,8 +28,8 @@
   - Created docs
   - Starting to create tests for ipfs-station
 - David
-  - 
-  - https://docs.google.com/document/d/1A_SEJx9qGtIp9mC6hXft1LLSCD5_1LPZE-Mn74-Ws5k/edit
+  - Followed up on the action items from last week
+  - created template for journey discussion https://docs.google.com/document/d/1A_SEJx9qGtIp9mC6hXft1LLSCD5_1LPZE-Mn74-Ws5k/edit
 
 Web Extensions can communicate with local apps. Still needs to be explored
 
