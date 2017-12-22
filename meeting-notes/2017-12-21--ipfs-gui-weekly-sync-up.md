@@ -1,4 +1,4 @@
-# IPFS Weekly Sync up Dec 21 2017
+# IPFS GUI Weekly Sync up Dec 21 2017
 
 **Participants:**
 
