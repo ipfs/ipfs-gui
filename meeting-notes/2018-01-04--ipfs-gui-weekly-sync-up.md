@@ -18,6 +18,10 @@
 - make this project Public? https://github.com/protocol/pm-ipfs-gui/issues/19
 - pick the new names for station and webui https://github.com/protocol/pm-ipfs-gui/issues/5#issuecomment-354717074
 
+## Recording:
+
+https://drive.google.com/open?id=1yYZ5_PqAz8uHpBhSuCpxYHFTLjl3_VsJ
+
 ## Notes:
 
 - Great feedback from a real user: [read Agatha's user journey](https://docs.google.com/document/d/1vcgnczyQmoDJcURTLsZZm1D2JixeJXpM4T6kwMvk95k/edit) 
