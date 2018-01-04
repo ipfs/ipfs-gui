@@ -13,7 +13,7 @@
 ## Notes:
 
 - Make sure to record 
-  - Recording https://drive.google.com/open?id=1UO7x-XKDpaYx3pirf72t4q5eiDXMw61V
+  - Recording https://drive.google.com/drive/u/1/folders/1sldD6CuhdXkXaAYoy1isqwoFmFCzqxf1
 
 - Lidel
   - Went through all the issues
