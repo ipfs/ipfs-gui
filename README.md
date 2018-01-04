@@ -1,4 +1,4 @@
-# 🔒 IPFS GUI
+# IPFS GUI
 
 > Make IPFS GUIs beautiful with a common language and a unified styleguide! Bonus points for modularity and reusability (WebComponents)!
 
