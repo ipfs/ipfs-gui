@@ -44,5 +44,5 @@ This is the internal repo to for Project Management of the IPFS GUI project.
   - [Design Tools Research](https://docs.google.com/document/d/1qJyfwgcMg8l3Tk3aYxF38iyYRhkEf3nlLNqOw4ZiW_8/edit)
 - Code
   - [webui](https://github.com/ipfs/webui)
-  - [desktop](https://github.com/ipfs-shipyard/desktop)
+  - [desktop](https://github.com/ipfs-shipyard/ipfs-desktop)
   - [companion](https://github.com/ipfs/ipfs-companion)
