@@ -26,7 +26,7 @@ This is the internal repo to for Project Management of the IPFS GUI project.
                   ╱                           ╲
                  ╱                             ╲
                 ╱                               ╲
-     Companion  ───────────────────────────────── Station
+     Companion  ───────────────────────────────── Desktop
 ```
 
 ## Docs, Assets and Code
@@ -43,6 +43,6 @@ This is the internal repo to for Project Management of the IPFS GUI project.
     - [WebUI Wireframe](https://app.zeplin.io/project/5a32d45d1a17248135241058)
   - [Design Tools Research](https://docs.google.com/document/d/1qJyfwgcMg8l3Tk3aYxF38iyYRhkEf3nlLNqOw4ZiW_8/edit)
 - Code
-  - [webui](https://github.com/ipfs/webui)
-  - [station](https://github.com/ipfs-shipyard/station)
+  - [webui](https://github.com/ipfs-shipyard/ipfs-webui)
+  - [desktop](https://github.com/ipfs-shipyard/ipfs-desktop)
   - [companion](https://github.com/ipfs/ipfs-companion)
