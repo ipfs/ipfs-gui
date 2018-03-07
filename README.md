@@ -36,7 +36,6 @@ This is the internal repo to for Project Management of the IPFS GUI project.
   - [Main Google Drive folder](https://drive.google.com/drive/u/1/folders/1xu_lv1jsatKnwyFcjd_fDsg3rCi9550u)
   - [Project OKR](./OKR.md)
   - [Project Requirements Document](./PRD.md)
-  - Weekly Sync Up - Thursdays at 5PM UTC - https://protocol.zoom.us/j/497645692
 - Design
   - Assets in Google Drive (soon™)
   - Zeplin
