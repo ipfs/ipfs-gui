@@ -1,4 +1,3 @@
-
 # The IPFS User Interface Project
 
 > Defining the ideal UI/UX for IPFS Desktop, Companion, & WebUI
@@ -10,6 +9,33 @@ With that list agreed, we’ll then **define the purpose and scope of each app**
 From there, we’ll design wireframes for each app, composing them from the list of ideal features, finding the UI/UX patterns that can be reproduced across the differing deployment environments. The goal here is not to force each app to be identical, but to come up with a common visual language, where the same feature looks familiar and behaves in a predictable way across all the apps, while the overall layout will be adapted to work best for the context. _The frame may change, but the buttons will work the same._
 
 See the [IPFS GUI Project Description](https://docs.google.com/document/d/1HzwTYo4BDDH4WIh0EULh0U9_WnT84FacDUdVtTExluQ/edit?usp=sharing) document for the original definition of this project.
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+  - [App Navigation](#app-navigation)
+  - [IPFS Node info](#ipfs-node-info)
+    - [WebUI > Home > NODE INFO](#webui--home--node-info)
+    - [Desktop > Info > Your Node](#desktop--info--your-node)
+    - [Companion > Browser action menu stats](#companion--browser-action-menu-stats)
+  - [Add Files](#add-files)
+  - [Sharing files](#sharing-files)
+  - [Browsing files](#browsing-files)
+  - [Connections / Peers](#connections--peers)
+  - [DAG / IPLD Explorer](#dag--ipld-explorer)
+  - [Pinning](#pinning)
+  - [Open WebUI](#open-webui)
+  - [IPFS Node Config vs Settings / Open Preferences](#ipfs-node-config-vs-settings--open-preferences)
+  - [Start / Stop IPFS Node](#start--stop-ipfs-node)
+  - [Control which IPFS node you connect to](#control-which-ipfs-node-you-connect-to)
+  - [Installation](#installation)
+      - [Installing Companion in Firefox](#installing-companion-in-firefox)
+      - [Installing Companion in Chrome](#installing-companion-in-chrome)
+      - [Installing Desktop on MacOS](#installing-desktop-on-macos)
+  - [Interesting features that we should talk about](#interesting-features-that-we-should-talk-about)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## App Navigation
 
@@ -207,14 +233,6 @@ The UI/UX should be improved but the idea is interesting, and could become a vit
 |-----------------|------------------|
 | ![](img/005-pin-desktop-3.png) | ![](img/005-pin-desktop-4.png) |
 
-A use-case for this is the [data-together](https://datatogether.org/) idea of sharing the hosting of content you feel is important. You can go to https://archives.ipfs.io/ and grab a hash for a dataset and replicate it all to your repo, to add more copies of it to the network and increase it's availability.
-
-<img width='888' src='img/005-pin-archive-1.png' />
-
-More simply, you could use it. make sure a website you want to host is always available on your machine.
-
-All of this needs explaining, ideally in app, as it's a new way of thinking about content on the distributed web.
-
 ## Open WebUI
 
 Both Desktop and Companion offer this, but is "Open WebUI" the right name for this action? As a companion or desktop user, I may have never seen the WebUI app, and so may have no intuitions as to what it's for.
@@ -275,7 +293,21 @@ TODO:
 
 ## Interesting features that we should talk about
 
+**IPFS Desktop as minimal menubar app**. Right now there is friction around the correct size for the menubar app. There is the "keep it small" camp that feels that the app should strive to stay not much large than the current design. The other camp feels that a desktop app should feel free to take up as much space as it needs.
+
+Both paths have value, but we need to decide what it is we're building. If it's to be a minimal menubar app, then we should avoid adding intricate features like a file browser. Dropbox takes this approach, and provides a minimal menubar app, which offloads almost all interactions to the webapp and the OS filesystem integration.
+
+At the other end of the spectrum are regular desktop apps, like bittorrent clients, such as Transmission, which provide comprehensive info including folder listings, bandwidth utilization and throttling, and download progress with file chunk level resolution.
+
+We should pick one or the other. We can build both as two separate apps, but we should be clear on the goal.
+
 **DAG Explorer instead of a search bar**. Paste in a CID, see info about it. This seems it could be hugely useful for letting people play with IPLD and IPFS to build an intuition of how it fits together.
 
 **Share file link**. The most useful link to share right now is an url to a gateway. Anyone running Companion could resolve it via ipfs, and anyone not would have a working fallback. Presenting multiple options, one of which would require all your collegues to also be already using ipfs to work seems unhelpful at this point.
 
+**Pinning**
+A use-case for this is the [data-together](https://datatogether.org/) idea of sharing the hosting of content you feel is important. You can go to https://archives.ipfs.io/ and grab a hash for a dataset and replicate it all to your repo, to add more copies of it to the network and increase it's availability.
+
+<img width='888' src='img/005-pin-archive-1.png' />
+
+More simply, you could use it. make sure a website you want to host is always available on your machine. All of this needs explaining, ideally in app, as it's a new way of thinking about content on the distributed web.
