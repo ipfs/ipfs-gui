@@ -229,8 +229,7 @@ http://127.0.0.1:5001/ipfs/QmPhnvn747LqwPYMJmQVorMaGbMSgA7mRRoyyZYz3DoZRQ/#/
 
 ## IPFS Node Config vs Settings / Open Preferences
 
-TODO
-
+TODO: Talk about app settings vs IPFS node settings. WebUI only has node settings right now. Desktop and companion have to deal with app specific settings and IPFS node config too, so we need to think about how to explain the difference t0 the user, or otherwise folding the two concepts into one settings page (app + node settings.) As mentioned previously, we should standardize the naming of these sections.
 
 ## Start / Stop IPFS Node
 
