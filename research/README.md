@@ -177,9 +177,15 @@ Desktop and WebUI both have a page for showing info about all the other IPFS nod
 
 **Companion** shows just the number of connected peers as a menu bar stat, and again when you go to share a file.
 
-## DAG Explorer
+## DAG / IPLD Explorer
 
-TODO
+**WebUI** has a DAG explorer, which might be due a rename to "IPLD Explorer". It takes an IPFS hash (also due a rename to CID) and lists out all the links or data that in the object the CID points to. In the case of a directory, you can see a list of the files it contains, and each filename is a link to it's IPLD object, allowing you drill down, navigating through the links. Where a hash points to data, the raw data is rendered in plain text.
+
+| Empty state | Explore a cid | Drill into a data node |
+|-|-|-|
+|![](img/004-ipld-explorer-webui-1.png) |![](img/004-ipld-explorer-webui-2.png) |![](img/004-ipld-explorer-webui-3.png)
+
+The UI/UX should be improved but the idea is interesting, and could become a vital tool for helping people to understand IPFS and IPLD.
 
 ## Pinning
 
