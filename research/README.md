@@ -102,8 +102,9 @@ Other items are available, but only appear on scroll. I only found that out afte
 
 ### Companion > Browser action menu stats
 
-<img width='349' src='img/001-node-info-companion.png' />
-<img width='349' src='img/companion-embedded-node.png' />
+| External node | Emedded node |
+|---------------|--------------|
+|<img width='349' src='img/001-node-info-companion.png' /> | <img width='349' src='img/companion-embedded-node.png' />
 
 - GATEWAY - the http address of the IPFS gateway you are using.
 - API - the http address of the IPFS API you are using.
@@ -236,3 +237,6 @@ TODO:
 ## Interesting features that we should talk about
 
 **DAG Explorer instead of a search bar**. Paste in a CID, see info about it. This seems it could be hugely useful for letting people play with IPLD and IPFS to build an intuition of how it fits together.
+
+**Share file link**. The most useful link to share right now is an url to a gateway. Anyone running Companion could resolve it via ipfs, and anyone not would have a working fallback. Presenting multiple options, one of which would require all your collegues to also be already using ipfs to work seems unhelpful at this point.
+
