@@ -147,7 +147,7 @@ There are 2 buttons in the bottom left of the Files pane to open a native file p
 
 | companion pre-file-drop | companion post-file-drop |
 |---------------------|----------------------|
-| ![](img/002-add-file-desktop-2.png) | ![](img/002-add-file-desktop-3.png) |
+| ![](img/002-add-file-companion-1.png) | ![](img/002-add-file-companion-2.png) |
 
 The current tab redirects to the url for the file just added. Adding a large file is handled, as the filepicker is a standard html file input. There is no progress indication; the usual browser page loading indicators give a clue that something is happening.
 
@@ -165,7 +165,17 @@ The current tab redirects to the url for the file just added. Adding a large fil
 
 ## Connections / Peers
 
-TODO
+Desktop and WebUI both have a page for showing info about all the other IPFS nodes you are currently connected to.
+
+| webui | desktop |
+|-------|---------|
+| ![](img/003-peers-webui-1.png) | ![](img/003-peers-desktop-1.png) |
+
+**WebUI** shows a peer count, geolocated pins on a globe and list of Peer Id / Multiaddr pairs for each connection. Clicking on a list item expands it to show similar node info as show on the Home page about your local node. The process is resource intensive and causes "slow script" warnings in firefox.
+
+**Desktop** Shows your location and peer count, along with a list of Peer Id / Location pairs. No more info is available about the peers. There is a search bar that allows you to search for peers by id or location.
+
+**Companion** shows just the number of connected peers as a menu bar stat, and again when you go to share a file.
 
 ## DAG Explorer
 
