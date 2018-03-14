@@ -132,7 +132,7 @@ Dropping a file gives positive feedback but nothing you can click on to see the 
 
 **Adding large file (~300MB) causes an error.** A `allocation size overflow` error from `ipfs-webui` in the browser console, and no indication of what happened in the UI.
 
-**Desktop** let's you drop files anywhere on it, but provides no indication that it's possible. Dropping a file works wwell as the file list shows filenames and is ordered by date added, so the file you just dropped appears at the top of the list.
+**Desktop** let's you drop files anywhere on it, but provides no indication that it's possible. Dropping a file works well as the file list shows filenames and is ordered by date added, so the file you just dropped appears at the top of the list.
 
 Adding a large file is handled, showing an indeterminate progress bar, which helps inform the user that something is happening.
 
@@ -155,13 +155,21 @@ The current tab redirects to the url for the file just added. Adding a large fil
 
 **WebUI** offers nothing to help the user share a file in their repo. The file list presents a list of CIDs that the user can copy and paste, and manually edit to point to the gateway.
 
-**Desktop** offers a "Copy link" button when the user hovers over a file. Clicking copies the IPFS gateway address of the file to the users clipboard. No indication is given that the action succeeded.
+**Desktop** offers a "Copy link" button when the user hovers over a file. Clicking copies the IPFS gateway address of the file to the users clipboard. No indication is given that the action succeeded. No other controls are provided, to edit or remove files.
 
 <img width='600' src='img/002-add-file-desktop-3.png' />
 
 **Companion** adds extra sharing related links to the menu when the current tab is showing a file from IPFS. "Copy Canonical Address", copies a Nested URI `/ipfs/QmHash` address to the clipboard. "Copy Public Gateway URL", copies the full ipfs.io url for the file. Both indicate that it worked with a browser notification. There is no indication to the user that these extra features exist, they only see them by re-opening the ifps browser action menu.
 
 <img width='888' src='img/002-add-file-companion-3.png' />
+
+## Browsing files
+
+**WebUI** list files by CID. It's not clear what order they are sorted in. Links are provided to open each file in a browser, or explore IPLD (labelled as DAG) data for the node are provided, along with a "x - remove" link.
+
+**Desktop** lists files by filename, sorted with most recently added at the top. The time the file was added is provided as muted, secondary text. In the 0.3, you can't drill down into folders, though I think this feature is available in the latest dev version.
+
+**Companion** has no file browsing feature.
 
 ## Connections / Peers
 
