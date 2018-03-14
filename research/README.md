@@ -197,7 +197,23 @@ The UI/UX should be improved but the idea is interesting, and could become a vit
 
 ## Pinning
 
-TODO
+**Desktop** allows you to pin a CID. You don't need to aleady store that content. You can paste in any CID and give it a label to remind yourself what it was.
+
+| Desktop pin pane | Add a pin |
+|------------------|-----------|
+| ![](img/005-pin-desktop-1.png) | ![](img/005-pin-desktop-2.png) |
+
+| Filled out form | PIN in progesss
+|-----------------|------------------|
+| ![](img/005-pin-desktop-3.png) | ![](img/005-pin-desktop-4.png) |
+
+A use-case for this is the [data-together](https://datatogether.org/) idea of sharing the hosting of content you feel is important. You can go to https://archives.ipfs.io/ and grab a hash for a dataset and replicate it all to your repo, to add more copies of it to the network and increase it's availability.
+
+<img width='888' src='img/005-pin-archive-1.png' />
+
+More simply, you could use it. make sure a website you want to host is always available on your machine.
+
+All of this needs explaining, ideally in app, as it's a new way of thinking about content on the distributed web.
 
 ## Open WebUI
 
