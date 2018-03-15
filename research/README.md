@@ -139,7 +139,6 @@ Other items are available, but only appear on scroll. I only found that out afte
 
 The stats in companion are significantly different to those in Desktop and WebUI. They are more focused on showing you _which_ ipfs node you are talking to.
 
-
 ## Add Files
 
 All three apps provide drag'n'drop and and a file picker dialog to add a file.
@@ -168,7 +167,6 @@ Adding a large file is handled, showing an indeterminate progress bar, which hel
 
 There are 2 buttons in the bottom left of the Files pane to open a native file picker dialog. The `+` opens the dialog configured to allow you to pick a single file. The folder icon opens a dialog configured to allow only directories to be selected. This should be collapsed into a single feature.
 
-
 **Companion**  similar to webUI provides a demarked file-drop area with a button to launch a native file picker dialog. Companion calls the feature "Share files via IPFS" and shows the connected peers count.
 
 | companion pre-file-drop | companion post-file-drop |
@@ -190,6 +188,8 @@ The current tab redirects to the url for the file just added. Adding a large fil
 <img width='888' src='img/002-add-file-companion-3.png' />
 
 ## Browsing files
+
+Discussion: https://github.com/ipfs-shipyard/pm-ipfs-gui/issues/9
 
 **WebUI** list files by CID. It's not clear what order they are sorted in. Links are provided to open each file in a browser, or explore IPLD (labelled as DAG) data for the node are provided, along with a "x - remove" link.
 
@@ -213,6 +213,8 @@ Desktop and WebUI both have a page for showing info about all the other IPFS nod
 
 ## DAG / IPLD Explorer
 
+Discussion: https://github.com/ipfs-shipyard/pm-ipfs-gui/issues/11
+
 **WebUI** has a DAG explorer, which might be due a rename to "IPLD Explorer". It takes an IPFS hash (also due a rename to CID) and lists out all the links or data that in the object the CID points to. In the case of a directory, you can see a list of the files it contains, and each filename is a link to it's IPLD object, allowing you drill down, navigating through the links. Where a hash points to data, the raw data is rendered in plain text.
 
 | Empty state | Explore a cid | Drill into a data node |
@@ -222,6 +224,8 @@ Desktop and WebUI both have a page for showing info about all the other IPFS nod
 The UI/UX should be improved but the idea is interesting, and could become a vital tool for helping people to understand IPFS and IPLD.
 
 ## Pinning
+
+Discussion: https://github.com/ipfs-shipyard/pm-ipfs-gui/issues/10
 
 **Desktop** allows you to pin a CID. You don't need to aleady store that content. You can paste in any CID and give it a label to remind yourself what it was.
 
@@ -247,7 +251,13 @@ http://127.0.0.1:5001/ipfs/QmPhnvn747LqwPYMJmQVorMaGbMSgA7mRRoyyZYz3DoZRQ/#/
 
 ## IPFS Node Config vs Settings / Open Preferences
 
-TODO: Talk about app settings vs IPFS node settings. WebUI only has node settings right now. Desktop and companion have to deal with app specific settings and IPFS node config too, so we need to think about how to explain the difference t0 the user, or otherwise folding the two concepts into one settings page (app + node settings.) As mentioned previously, we should standardize the naming of these sections.
+Discussion: https://github.com/ipfs-shipyard/pm-ipfs-gui/issues/15
+
+**WebUI** allows you to modify the IPFS node config.
+
+**Desktop** and **Companion** have to deal with app specific settings and also let the user modify the IPFS node config as well.
+
+We need to think about how that comes across to the user. We can keep app settings and node config separate, but we should aim to present them as sections of the same page in the UI.
 
 ## Start / Stop IPFS Node
 
