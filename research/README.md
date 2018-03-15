@@ -58,6 +58,8 @@ A quick win would be to agree on the names of things, and their order of importa
 
 ## IPFS Node info
 
+Discussion: https://github.com/ipfs-shipyard/pm-ipfs-gui/issues/33
+
 All three apps show IPFS node stats as part of the initial UI that is show the user first, at startup.
 
 | | webui      | desktop        | companion         |
