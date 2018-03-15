@@ -68,6 +68,11 @@ All three apps show IPFS node stats as part of the initial UI that is show the u
 | **nav section** | Home | Info | - |
 | **title** | NODE INFO | Your Node | - |
 
+There are significant inconsistencies between the apps around what info is shown and how it is presented. For example they are inconsistent on the idea of "version"
+- Desktop displays "protocol version".
+- Companion displays "backend app version" (go-ipfs or js-ipfs)
+- WebUI displays both.
+
 Let's dig into what is shown in each app...
 
 ### WebUI > Home > NODE INFO
@@ -155,31 +160,36 @@ All three apps provide drag'n'drop and and a file picker dialog to add a file.
 
 **WebUI** provides a demarked file-drop area with a button to launch a native file picker dialog. No explanation is provided.
 
-| webui pre-file-drop | webui post-file-drop |
-|---------------------|----------------------|
-| ![](img/002-add-file-webui-1.png) | ![](img/002-add-file-webui-2.png) |
-
 Dropping a file gives positive feedback but nothing you can click on to see the file in the file list.
 
 **Adding large file (~300MB) causes an error.** A `allocation size overflow` error from `ipfs-webui` in the browser console, and no indication of what happened in the UI.
+
+| webui pre-file-drop | webui post-file-drop |
+|---------------------|----------------------|
+| ![](img/002-add-file-webui-1.png) | ![](img/002-add-file-webui-2.png) |
 
 **Desktop** let's you drop files anywhere on it, but provides no indication that it's possible. Dropping a file works well as the file list shows filenames and is ordered by date added, so the file you just dropped appears at the top of the list.
 
 Adding a large file is handled, showing an indeterminate progress bar, which helps inform the user that something is happening.
 
+There are 2 buttons in the bottom left of the Files pane to open a native file picker dialog. The `+` opens the dialog configured to allow you to pick a single file. The folder icon opens a dialog configured to allow only directories to be selected. This should be collapsed into a single feature.
+
 | desktop during-file-drop | desktop post-file-drop |
 |---------------------|----------------------|
 | ![](img/002-add-file-desktop-2.png) | ![](img/002-add-file-desktop-3.png) |
 
-There are 2 buttons in the bottom left of the Files pane to open a native file picker dialog. The `+` opens the dialog configured to allow you to pick a single file. The folder icon opens a dialog configured to allow only directories to be selected. This should be collapsed into a single feature.
-
 **Companion**  similar to webUI provides a demarked file-drop area with a button to launch a native file picker dialog. Companion calls the feature "Share files via IPFS" and shows the connected peers count.
+
+The current tab redirects to the url for the file just added. Adding a large file is handled, as the filepicker is a standard html file input. There is no progress indication; the usual browser page loading indicators give a clue that something is happening.
 
 | companion pre-file-drop | companion post-file-drop |
 |---------------------|----------------------|
 | ![](img/002-add-file-companion-1.png) | ![](img/002-add-file-companion-2.png) |
 
-The current tab redirects to the url for the file just added. Adding a large file is handled, as the filepicker is a standard html file input. There is no progress indication; the usual browser page loading indicators give a clue that something is happening.
+See:
+
+- [ipfs-companion#342 - UX improvements for sharing local files](https://github.com/ipfs-shipyard/ipfs-companion/issues/342)
+- [ipfs-companion#423 - Display IPFS addresses instead of opening uploaded file](https://github.com/ipfs-shipyard/ipfs-companion/issues/423)
 
 ## Sharing files
 
@@ -191,9 +201,12 @@ Discussion: https://github.com/ipfs-shipyard/pm-ipfs-gui/issues/34
 
 <img width='600' src='img/002-add-file-desktop-3.png' />
 
-**Companion** adds extra sharing related links to the menu when the current tab is showing a file from IPFS. "Copy Canonical Address", copies a Nested URI `/ipfs/QmHash` address to the clipboard. "Copy Public Gateway URL", copies the full ipfs.io url for the file. Both indicate that it worked with a browser notification. There is no indication to the user that these extra features exist, they only see them by re-opening the ifps browser action menu.
+**Companion** adds extra sharing related links to the menu when the current tab is showing a file from IPFS. "Copy Canonical Address", copies a Nested URI `/ipfs/QmHash` address to the clipboard. "Copy Public Gateway URL", copies the full ipfs.io url for the file. Both indicate that it worked with a browser notification. There is no indication to the user that these extra features exist, they only see them by re-opening the IPFS browser action menu.
 
 <img width='888' src='img/002-add-file-companion-3.png' />
+
+See:
+- [ipfs-companion#398  - IPFS Protocol Indicator in Location Bar ](https://github.com/ipfs-shipyard/ipfs-companion/issues/398)
 
 ## Browsing files
 
@@ -203,7 +216,11 @@ Discussion: https://github.com/ipfs-shipyard/pm-ipfs-gui/issues/9
 
 **Desktop** lists files by filename, sorted with most recently added at the top. The time the file was added is provided as muted, secondary text. In the 0.3, you can't drill down into folders, though I think this feature is available in the latest dev version.
 
-**Companion** has no file browsing feature.
+**Companion** has no file browsing feature. It is currently assumed the user will open the WebUI for this.
+
+See:
+
+- [ipfs-companion#415 - Save all uploads to MFS ](https://github.com/ipfs-shipyard/ipfs-companion/issues/415)
 
 ## Connections / Peers
 
@@ -235,7 +252,7 @@ The UI/UX should be improved but the idea is interesting, and could become a vit
 
 Discussion: https://github.com/ipfs-shipyard/pm-ipfs-gui/issues/10
 
-**Desktop** allows you to pin a CID. You don't need to aleady store that content. You can paste in any CID and give it a label to remind yourself what it was.
+**Desktop** allows you to pin a CID. You don't need to already store that content. You can paste in any CID and give it a label to remind yourself what it was.
 
 | Desktop pin pane | Add a pin |
 |------------------|-----------|
@@ -245,17 +262,21 @@ Discussion: https://github.com/ipfs-shipyard/pm-ipfs-gui/issues/10
 |-----------------|------------------|
 | ![](img/005-pin-desktop-3.png) | ![](img/005-pin-desktop-4.png) |
 
+**Companion** supports recursive pinning of arbitrary resources by navigating to the resource root CID and clicking on "Pin" in Browser/Page Action.
+
 ## Open WebUI
 
 Both Desktop and Companion offer this, but is "Open WebUI" the right name for this action? As a companion or desktop user, I may have never seen the WebUI app, and so may have no intuitions as to what it's for.
 
 Desktop and companion have differing ideas as to what the best url for WebUI is.
 
-desktop:
+**Desktop**
 http://localhost:5001/ipfs/QmPhnvn747LqwPYMJmQVorMaGbMSgA7mRRoyyZYz3DoZRQ/#/
 
-ipfs companion
+**Companion**
 http://127.0.0.1:5001/ipfs/QmPhnvn747LqwPYMJmQVorMaGbMSgA7mRRoyyZYz3DoZRQ/#/
+
+Companion swiched to using `127.0.0.1` due to "Mixed Content Warning when using `localhost` Gateway", see: [ipfs-companion#328](https://github.com/ipfs-shipyard/ipfs-companion/issues/328)
 
 ## IPFS Node Config vs Settings / Open Preferences
 
@@ -280,11 +301,16 @@ Using it fades out the node info, but it isn't clear what's happened, or that to
 
 ## Control which IPFS node you connect to
 
-Companion let's you toggle between an embedded js-ipfs node or an external IPFS daemon. In the preferences you can even have it connect to a remote IPFS node.
+**Companion** let's you toggle between an embedded js-ipfs node or an external IPFS daemon. In the preferences you can even have it connect to a remote IPFS node. You must bring your own IPFS node and launch it separately for companion to be useful.
 
-Desktop uses [`js-ipfsd-ctl`](https://github.com/ipfs/js-ipfsd-ctl) and bundles `go-ipfs`, and it's not configureable. If you run a local ipfs daemon, Desktop cannot start, and instead shows an error message, "Please stop your IPFS daemon before running this application".
+**Desktop** uses [`js-ipfsd-ctl`](https://github.com/ipfs/js-ipfsd-ctl) and bundles `go-ipfs`, and it's not configurable. If you run a local ipfs daemon, Desktop cannot start, and instead shows an error message, "Please stop your IPFS daemon before running this application".
 
-WebUI is bundled with `go-ipfs` and only talks the IPFS node it was bundled with. It would be useful to have a WebUI that was portable, so it could be used with `js-ipfs`.
+See:
+
+- [ipfs-desktop#542 - Let Station use pre-existing IPFS installation or already running daemon](https://github.com/ipfs-shipyard/ipfs-desktop/issues/542)
+- [ipfs-desktop#611 - Option to only start Frontend](https://github.com/ipfs-shipyard/ipfs-desktop/issues/611)
+
+**WebUI** is bundled with `go-ipfs` and only talks the IPFS node it was bundled with. It would be useful to have a WebUI that was portable, so it could be used with `js-ipfs`.
 
 ## Installation
 
