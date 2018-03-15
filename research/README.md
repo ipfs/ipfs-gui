@@ -114,7 +114,11 @@ Other items are available, but only appear on scroll. I only found that out afte
 
 `Repo size` - in MB - This is surprising. Files added to an IPFS repo that aren't in the MFS will be counted in the repo size, but don't appear in the Files pane, so as a user I can't see how the numbers make sense.
 
-`Sharing [n] "objects"` - What are objects in this context? Files? IPLD nodes? What would a new user assume? How can we make this more intuitive? Is it useful?
+`Sharing [n] "objects"` - What are objects in this context? Files? IPLD nodes? What would a new user assume? How can we make this more intuitive? Is it useful? This [issue](https://github.com/ipfs-shipyard/ipfs-desktop/issues/530 ) is interesting
+
+> [why does the] number of objects shared keep going up
+>
+> It is geoip doing lookups. It should stop at some point
 
 `Location` - Same as WebUI. Fun, but we should consider if this is helpful or confusing, as it's not accurate. Perhaps it's accuracy should be limited to the country level if we think it's worth keeping.
 
@@ -178,6 +182,8 @@ There are 2 buttons in the bottom left of the Files pane to open a native file p
 The current tab redirects to the url for the file just added. Adding a large file is handled, as the filepicker is a standard html file input. There is no progress indication; the usual browser page loading indicators give a clue that something is happening.
 
 ## Sharing files
+
+Discussion: https://github.com/ipfs-shipyard/pm-ipfs-gui/issues/34
 
 **WebUI** offers nothing to help the user share a file in their repo. The file list presents a list of CIDs that the user can copy and paste, and manually edit to point to the gateway.
 
