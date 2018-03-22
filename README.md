@@ -4,6 +4,8 @@
 
 This is the internal repo to for Project Management of the IPFS GUI project.
 
+![Roadmap](./ROADMAP.png)
+
 ## The IPFS GUI Triangle
 
 ```
