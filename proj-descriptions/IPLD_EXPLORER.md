@@ -2,6 +2,28 @@
 
 **Abstract**: IPLD is the underlying data structure for IPFS. It is a huge hash-linked directed acyclic graph, with all files, git repos, blockchains, etc., within it. IPLD is the heart of IPFS. The tooling for manipulating IPLD directly has recently landed into both go-ipfs and js-ipfs under the API/commands `ipfs dag`. What we need next is to be able to make it nicer for humans to interact with IPLD directly. For this purpose, we have a few different "graph explorers" in mind. You can think of them similar to a visual explorer for a git repo (eg rendering the commit graph), or file explorers, or blockchain explorers. We aim to create several graph explorers, (1) one based on a traditional programming REPL, (2) another based on JSON tree explorers, (3) another based on a column-based tree viewer, (4) and a graphical version using d3 graph plotting, and (5) one in 3D which allows VR exploration.
 
+### Table of Contents
+* [Introduction](#introduction)                                                                                                                                                                                                                     
+* [Explorers](#explorers)                                                                                                                                                                                                                           
+    * [Explorer 1. IPLD REPL](#explorer-1-ipld-repl)                                                                                                                                                                                                
+    * [Explorer 2. tree explorers](#explorer-2-tree-explorers)                                                                                                                                                                                      
+    * [Explorer 3. column-based viewer](#explorer-3-column-based-viewer)                                                                                                                                                                            
+    * [Explorer 4. graphical version](#explorer-4-graphical-version)                                                                                                                                
+    * [D3](#d3)                                                                                                                                                                                                                                     
+        * [D3: Quick Introduction](#d3-quick-introduction)                                                                                                                                                                                          
+        * [D3: Prior Art in IPFS Ecosystem](#d3-prior-art-in-ipfs-ecosystem)                                                                                                                                                                        
+    * [GraphViz](#graphviz)                                                                                                                                                                                                      
+        * [Dot: Prior Art in IPFS Ecosystem](#dot-prior-art-in-ipfs-ecosystem)                                                                                                                                                                      
+        * [GraphViz in D3](#graphviz-in-d3)                                                                                                                                                                                                         
+    * [Explorer 5. 3D VR Explorer](#explorer-5-3d-vr-explorer)                                                                                                                                                                                      
+* [How to Implement](#how-to-implement)                                                                                                                                                                                                             
+    * [Path in the anchor and history](#path-in-the-anchor-and-history)                                                                                                                                                                             
+    * [Navigation path](#navigation-path)                                                                                                                                                                                                           
+* [Relevant API](#relevant-api)                                                                                                                                                                                                                     
+    * [Example: ipfs.dag.ls](#example-ipfsdagls)                                                                                                                                                                                                    
+    * [Example: ipfs.dag.tree](#example-ipfsdagtree)                                                                                                                                                                                                
+    * [Example: ipfs.dag.get](#example-ipfsdagget)
+
 ## Introduction
 
 To learn more about IPLD, please check out:
@@ -71,15 +93,60 @@ File browsers / explorers:
 The column-based file system exploration fits our graphs very well, as well. This sould perhpas be the easiest to get working well. There's many examples and libraries out there.
 
 
-### Explorer 4. graphical version using d3 graph plotting
-
-![](https://camo.githubusercontent.com/bee179fc7d2635f40607516ed1402533b67a8d05/68747470733a2f2f63646e2e7261776769742e636f6d2f697066732f6461746176697a2f363032316365613765343932323462316261623738346365303465366566373031396265363235622f776562617070732f747265652d6c74722f646f632f697066732d636f72652e706e67)
-
-This version visualizes the IPLD graph using d3. The tool at https://github.com/ipfs/dataviz may still work. it aims to-- the demo is just a way to go fix it.
-
-- ipfs dataviz: https://github.com/ipfs/dataviz is currently working, and showing _files_. It should also show _the raw data_. Now that IPLD is out, the project could be updated. Though because having access to the file graph is useful, we may want to copy the visualization and remix it to navigate on nodes, instead of files.
+### Explorer 4. graphical version
 
 - https://camo.githubusercontent.com/23d4bbfccd8aeb42dc9374827d364707c0e17981/68747470733a2f2f7261772e6769746875622e636f6d2f6b6573736c65722f7374617469632f6d61737465722f6e6f64652d6a736f6e2d6578706c6f7265722e706e67
+
+
+#### D3
+
+D3 was already used in some of [our prior art](https://github.com/ipfs-shipyard/pm-ipfs-gui/blob/master/proj-descriptions/IPLD_EXPLORER.md#explorer-4-graphical-version-using-d3-graph-plotting) and probably will end up using it directly or indirectly. 
+
+Open technical questions that probably do not belong to design discussion: what will be the data format? should D3 be used in raw form, or via a library? are there any alternatives to D3 ecosystem?
+We will answer them during the implementation, raising them here just for the record.
+
+##### D3: Quick Introduction
+
+D3→Shapes→Links:  https://github.com/d3/d3-shape#links  
+Live demo with annotated sources:  https://bl.ocks.org/mbostock/4339184
+
+##### D3: Prior Art in IPFS Ecosystem
+
+This version visualizes the IPLD graph using d3:
+
+![old ipfs dataviz demo](https://camo.githubusercontent.com/bee179fc7d2635f40607516ed1402533b67a8d05/68747470733a2f2f63646e2e7261776769742e636f6d2f697066732f6461746176697a2f363032316365613765343932323462316261623738346365303465366566373031396265363235622f776562617070732f747265652d6c74722f646f632f697066732d636f72652e706e67)
+
+[ipfs dataviz](https://github.com/ipfs/dataviz) is currently working, and showing _files_. It should also show _the raw data_. Now that IPLD is out, the project could be updated. Though because having access to the file graph is useful, we may want to copy the visualization and remix it to navigate on nodes, instead of files.
+
+Live Demo: https://ipfs.io/ipfs/QmX5smVTZfF8p1VC8Y3VtjGqjvDVPWvyBk24JgvnMwHtjC/viz#QmX5smVTZfF8p1VC8Y3VtjGqjvDVPWvyBk24JgvnMwHtjC
+
+![screenshot-2018-3-29 http 127 0 0 1 1](https://user-images.githubusercontent.com/157609/38059257-03499c82-32e6-11e8-834b-b42000587518.png)
+
+Dead Demo (trying to load big flat directory with XKCD archive): https://ipfs.io/ipfs/QmX5smVTZfF8p1VC8Y3VtjGqjvDVPWvyBk24JgvnMwHtjC/viz#Qmb8wsGZNXt5VXZh1pEmYynjB6Euqpq3HYyeAdw2vScTkQ
+
+Given enough time it will eventually render [this mess](https://user-images.githubusercontent.com/157609/38059146-a7eb3b2a-32e5-11e8-8abe-1c2b976a61c5.png).
+
+#### GraphViz
+
+(Does not really support dynamic transformations in web browser, but mentioning it for the record)  
+Why mentioning GraphViz and Dot format? People can easily reuse it in papers, publications etc. 
+
+##### Dot: Prior Art in IPFS Ecosystem
+
+Prior art exists in IPFS ecosystem, see notes on [Graphing Objects](https://ipfs.io/ipfs/QmYNQJoKGNHTpPxCBPh9KkDpaExgd2duMa3aF6ytMpHdao/docs/examples/example-viewer/example#../graphmd/README.md):
+
+![graph](https://user-images.githubusercontent.com/157609/38058901-cc854cd8-32e4-11e8-89bd-228ecc3ef0a6.png)
+
+
+##### GraphViz in D3
+
+Web Version implemented in D3 exists: https://github.com/mstefaniuk/graph-viz-d3-js
+
+
+Examples: 
+- http://graphviz.it/#/gallery/unix.gv
+- http://graphviz.it/#/gallery/records.gv
+
 
 
 
