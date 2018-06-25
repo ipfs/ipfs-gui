@@ -1,6 +1,6 @@
 # The IPFS User Interface Project
 
-> The project management repo for the IPFS GUI project.
+> Make the IPFS GUIs simple, accessible, reusable and beautiful. That is the IPFS GUI Team! 
 
 ## Goal
 
