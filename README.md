@@ -12,8 +12,8 @@ Make the IPFS GUIs simple, accessible, reusable and beautiful.
 - Create a [list of existing features](https://github.com/ipfs-shipyard/pm-ipfs-gui/issues?q=is%3Aissue+is%3Aopen+label%3A%22existing+feature%22) and define the ideal way to offer up each concept to the users. `<--` **WIP**
 - Define the [purpose and scope of each app](https://github.com/ipfs-shipyard/pm-ipfs-gui/issues/41).
 - Document the implementation roadmap (see below)
-- Create wireframes for new apps `<--` **we are here**
-- Build them!
+- Create [wireframes](https://projects.invisionapp.com/d/main#/projects/prototypes/13924274) for new apps `<--` **WIP**
+- [Build them!](https://github.com/ipfs-shipyard/ipfs-webui/tree/revamp) `<--` **we are here**
 
 ![Roadmap](./ROADMAP.png)
 
