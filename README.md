@@ -6,10 +6,10 @@
 
 Make the IPFS GUIs simple, accessible, reusable and beautiful.
 
-- **simple** - Fight complexity at every step. The are big ideas in IPFS. Let's present them clearly.
-- **accessible** - IPFS **must** be useable and comprehensible for everyone.
-- **reusable** - Publish and primote this work. Make doing the right thing the easist thing.
-- **beautiful** - Demonstreate the nature of the system with effortless, coherent and compelling interfaces.
+- **Simple** - Fight complexity at every step. The are big ideas in IPFS. Let's present them clearly.
+- **Accessible** - IPFS **must** be useable and comprehensible for everyone.
+- **Reusable** - Publish and promote this work. Make doing the right thing the easist thing.
+- **Beautiful** - Demonstreate the nature of the system with effortless, coherent and compelling interfaces.
 
 ## IPFS GUI Projects
 
