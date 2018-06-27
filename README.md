@@ -6,10 +6,10 @@
 
 Make the IPFS GUIs simple, accessible, reusable and beautiful.
 
-- **Simple** - Fight complexity at every step. The are big ideas in IPFS. Let's present them clearly.
-- **Accessible** - IPFS **must** be useable and comprehensible for everyone.
-- **Reusable** - Publish and promote this work. Make doing the right thing the easist thing.
-- **Beautiful** - Demonstreate the nature of the system with effortless, coherent and compelling interfaces.
+- **Simple** - Fight complexity at every step. There are big ideas in IPFS. Let's present them clearly.
+- **Accessible** - IPFS **must** be usable and comprehensible for everyone.
+- **Reusable** - Publish and promote this work. Make doing the right thing the easiest thing.
+- **Beautiful** - Demonstrate the nature of the system with effortless, coherent, and compelling interfaces.
 
 ## IPFS GUI Projects
 
@@ -26,7 +26,7 @@ Make the IPFS GUIs simple, accessible, reusable and beautiful.
 
 We are focused on rebuilding and shipping the new [IPFS Web UI].
 
-Once that is shipped we will be extracting what we have learned into a UI guidebook and a resuable component library. Then we'll be using those components to develop the next iteration of [IPFS Desktop] and [IPFS Companion].
+Once that is shipped we will be extracting what we have learned into a UI guidebook and a reusable component library. Then we'll be using those components to develop the next iteration of [IPFS Desktop] and [IPFS Companion].
 
 ![Roadmap](./ROADMAP.png)
 
@@ -79,7 +79,7 @@ In alphabetical order we are:
 
 ## Contributing
 
-We figure things out in the open and coordinate via the [**issues on this repo**](https://github.com/ipfs/ipfs-gui/issues). You can **chat to us in irc** in the <a href="https://www.irccloud.com/invite?channel=%23ipfs-in-web-browsers&amp;hostname=irc.freenode.net&amp;port=6697&amp;ssl=1"> #ipfs-in-web-browsers channel on irc.freenode.net</a>. We're an open project and a friendly group, so be nice and **read the [contributing guidelines](https://github.com/ipfs/community/blob/master/contributing.md)** when you're ready to jump in.
+We figure things out in the open and coordinate via the [**issues on this repo**](https://github.com/ipfs/ipfs-gui/issues). You can **chat with us in irc** in the <a href="https://www.irccloud.com/invite?channel=%23ipfs-in-web-browsers&amp;hostname=irc.freenode.net&amp;port=6697&amp;ssl=1"> #ipfs-in-web-browsers channel on irc.freenode.net</a>. We're an open project and a friendly group, so be nice and **read the [contributing guidelines](https://github.com/ipfs/community/blob/master/contributing.md)** when you're ready to jump in.
 
 
 [IPFS Web UI]: https://github.com/ipfs-shipyard/ipfs-webui "Graphical IPFS file manager and network explorer"
