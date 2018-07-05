@@ -2,6 +2,8 @@
 
 > The meeting point for making great Graphical User Interfaces.
 
+[![Waffle.io - Issues in progress](https://badge.waffle.io/ipfs/ipfs-gui.png?label=in%20progress&title=In%20Progress)](http://waffle.io/ipfs/ipfs-gui) <a href="https://www.irccloud.com/invite?channel=%23ipfs-in-web-browsers&amp;hostname=irc.freenode.net&amp;port=6697&amp;ssl=1" target="_blank"><img src="https://img.shields.io/badge/IRC-%23ipfs--in--web--browsers-1e72ff.svg?style=flat"  height="20"></a>
+
 ## Goal
 
 Make the IPFS GUIs simple, accessible, reusable and beautiful.
