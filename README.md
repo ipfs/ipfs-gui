@@ -81,7 +81,7 @@ In alphabetical order we are:
 
 ## Contributing
 
-We figure things out in the open and coordinate via the [**issues on this repo**](https://github.com/ipfs/ipfs-gui/issues). You can **chat with us in irc** in the <a href="https://www.irccloud.com/invite?channel=%23ipfs-gui&amp;hostname=irc.freenode.net&amp;port=6697&amp;ssl=1"> #ipfs-gui channel on irc.freenode.net</a>. We're an open project and a friendly group, so be nice and **read the [contributing guidelines](https://github.com/ipfs/community/blob/master/contributing.md)** when you're ready to jump in.
+We figure things out in the open and coordinate via the [**issues on this repo**](https://github.com/ipfs/ipfs-gui/issues). You can **chat with us in irc** in the <a href="https://www.irccloud.com/invite?channel=%23ipfs-gui&amp;hostname=irc.freenode.net&amp;port=6697&amp;ssl=1"> #ipfs-gui channel on irc.freenode.net</a>. We're an open project and a friendly group, so be nice and **read the [contributing guidelines](https://github.com/ipfs/community/blob/master/CONTRIBUTING_JS.md)** when you're ready to jump in.
 
 
 [IPFS Web UI]: https://github.com/ipfs-shipyard/ipfs-webui "Graphical IPFS file manager and network explorer"
