@@ -57,6 +57,7 @@ See the [IPFS GUI Project Description](https://docs.google.com/document/d/1HzwTY
   - IPFS UI kit - [_png_](img/ipfs-ui-kit.png) - _wip on a UI style guide_
   - Web UI Wireframes - [_invision_](https://app.zeplin.io/project/5a32d45d1a17248135241058)
   - Design Tools Research - [google doc](https://docs.google.com/document/d/1qJyfwgcMg8l3Tk3aYxF38iyYRhkEf3nlLNqOw4ZiW_8/edit)
+  - [IPFS color palette](resources/color-palette.md) in a bunch of formats
 
 #### PM
 
@@ -69,12 +70,11 @@ See the [IPFS GUI Project Description](https://docs.google.com/document/d/1HzwTY
 In alphabetical order we are:
 
 - @akrych - UI designer and the Protocol illustration master
-- @andreforsousa - UX designer and UI Maestro
 - @alanshaw - Web UI & Companion dev - the `window.ipfs` wizard
 - @fsdiogo - Web UI & Companion dev - he fights for the users
 - @hacdias - Desktop lead dev and Web UI - the file manager mage
+- @jessicaschilling - UX strategist
 - @lidel - Companion lead dev and original IPFS sage
-- @meiqimichelle - Advisor and User-centered design expert
 - @olizilla - Web UI lead dev and GUI team gardener
 
 **and you...**
