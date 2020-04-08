@@ -15,7 +15,7 @@ Our goal is to **create visual and interaction standards and patterns for workin
 
 ### Primary projects
 
-Our primary focus is on the suite of Protocol Labs-led "helper" apps that provide a GUI for IPFS as a whole. Our aim is to make them useful for seasoned IPFS developers while also offering a welcoming introduction to IPFS for those less experienced.
+Our primary focus is on the three Protocol Labs-led "helper" apps that provide a GUI for IPFS as a whole. Our aim is to make them useful for seasoned IPFS developers while also offering a welcoming introduction to IPFS for those less experienced.
 
 | IPFS Companion | IPFS WebUI | IPFS Desktop |
 |:-:|:-:|:-:|
