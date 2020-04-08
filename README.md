@@ -4,42 +4,41 @@
 [![Project icon.](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat)](http://ipfs.io/)
 <a href="https://www.irccloud.com/invite?channel=%23ipfs-gui&amp;hostname=irc.freenode.net&amp;port=6697&amp;ssl=1" target="_blank"><img src="https://img.shields.io/badge/irc-%23ipfs--gui-brightgreen.svg?style=flat"  height="20"></a>
 
-Our goal is to **create visual and interaction standards and patterns for working with IPFS that are *simple*, *accessible*, *reusable*, and *beautiful*.**
+Our goal is to **create visual and interaction standards and patterns for working with IPFS that are ... 
 
-- **Simple** - Fight complexity at every step. There are big ideas in IPFS. Let's present them clearly.
-- **Accessible** - IPFS **must** be usable and comprehensible for everyone.
-- **Reusable** - Publish and promote this work. Make doing the right thing the easiest thing.
-- **Beautiful** - Demonstrate the nature of the system with effortless, coherent, and compelling interfaces.
+- **Simple**: Present the big ideas of IPFS clearly, without unnecessary complexity
+- **Accessible**: Enable *everyone* to take advantage of what IPFS offers
+- **Reusable**: Offer compelling standards and atomic patterns to the community of IPFS builders
+- **Beautiful**: By their nature, things that are simple, accessible and reusable are also beautiful
 
 ## IPFS GUI projects
 
 ### Primary projects
 
-- [IPFS Web UI] - Graphical IPFS file manager and network explorer.
-- [IPFS Desktop] -  Launch and manage IPFS from your OS GUI.
-- [IPFS Companion] - Give your browser IPFS super powers.
+Our primary focus is on the suite of Protocol Labs-led "helper" apps that provide a GUI for IPFS as a whole. Our aim is to make them useful for seasoned IPFS developers while also offering a welcoming introduction to IPFS for those less experienced.
 
-| Web UI        | Desktop        | Companion         |
-|---------------|----------------|-------------------|
-| [<img title="Web UI screenshot" src="img/ipfs-desktop-v2-alpha.png" width="296px" />][IPFS Web UI] | [<img title="Desktop screenshot" src="research/img/001-node-info-desktop.png" width="296px" />][IPFS Desktop] | [<img title="Companion screenshot" src="img/ipfs-companion-v2.4.0.png" width="296px" />][IPFS Companion]
+| IPFS Companion | IPFS WebUI | IPFS Desktop |
+|:-:|:-:|:-:|
+| [<img title="IPFS Companion" src="https://ipfs.io/images/ipfs-companion-hex.png" />][IPFS Companion] | [<img title="Web UI screenshot" src="img/webui-hex.png" />][IPFS Web UI] | [<img title="IPFS Desktop" src="https://ipfs.io/images/ipfs-desktop-hex.png" />][IPFS Desktop] |
+| [Browser extension](https://github.com/ipfs/ipfs-companion) for opening ipfs:// URLs, saving/sharing files, and more| [IPFS file manager and network explorer](https://github.com/ipfs-shipyard/ipfs-webui) in your browser | Launch and manage IPFS from a friendly, intuitive [desktop app](https://www.github.com/ipfs-shipyard/ipfs-desktop) |
 
 ### All projects
 
-In addition to the apps above, the IPFS GUI group supports work on issues in the following repos. You can get a birds-eye view on prioritization and progress of GUI-centric work in these repos in [our ZenHub board](https://app.zenhub.com/workspaces/-ipfs-app-family-ux-5e7a3123e969e659cdebb5e6/board?repos=111841602,32695583,36580101,24483721,142161410,119716282,116711586,38799513,142181521,147528357,148369983,40225364,104770273). *Note that our focus is primarily on UX-related work, so not all issues within all these repos may be in our group's purview.*
+In addition to the apps above, the IPFS GUI group supports work on issues in all of the following repos. You can get a birds-eye view on prioritization and progress of GUI-centric work in these repos in [our ZenHub board](https://app.zenhub.com/workspaces/-ipfs-app-family-ux-5e7a3123e969e659cdebb5e6/board?repos=111841602,32695583,36580101,24483721,142161410,119716282,116711586,38799513,142181521,147528357,148369983,40225364,104770273). *Note that our focus is primarily on UX-related work, so not all issues within all these repos may be in our group's purview.*
 
-- [ipfs/ipfs-gui](https://www.github.com/ipfs/ipfs-gui) - This repo, used for overall planning and cross-repo work
-- [ipfs/dir-index-html](https://www.github.com/ipfs/dir-index-html) - Directory listing HTML for go-ipfs gateways
-- [ipfs/distributions](https://www.github.com/ipfs/distributions) - Source code for https://dist.ipfs.io
-- [ipfs/i18n](https://www.github.com/ipfs/i18n) - Internationalization work across all IPFS projects
-- [ipfs/public-gateway-checker](https://www.github.com/ipfs/public-gateway-checker) - Source code for https://ipfs.github.io/public-gateway-checker/
-- [ipfs-shipyard/ipfs-companion](https://www.github.com/ipfs-shipyard/ipfs-companion) - Browser extension that simplifies access to IPFS resources on the Web
-- [ipfs-shipyard/ipfs-css](https://www.github.com/ipfs-shipyard/ipfs-css) - Single-purpose CSS rules and font-face config to add the IPFS look and feel to your UI
-- [ipfs-shipyard/ipfs-desktop](https://www.github.com/ipfs-shipyard/ipfs-desktop) - An unobtrusive and user-friendly desktop application for IPFS on Windows, Mac and Linux
-- [ipfs-shipyard/ipfs-share-files](https://www.github.com/ipfs-shipyard/ipfs-share-files) - Source code for https://share.ipfs.io
-- [ipfs-shipyard/ipfs-ui-style-guide](https://www.github.com/ipfs-shipyard/ipfs-ui-style-guide) - UI style guide for IPFS apps
-- [ipfs-shipyard/ipfs-webui](https://www.github.com/ipfs-shipyard/ipfs-webui) - Browser front-end for IPFS nodes
-- [ipfs-shipyard/ipld-explorer](https://www.github.com/ipfs-shipyard/ipld-explorer) - Source code for https://explore.ipld.io
-- [ipfs-shipyard/ipld-explorer-components](https://www.github.com/ipfs-shipyard/ipld-explorer-components) - React components for https://explore.ipld.io
+- [ipfs/ipfs-gui](https://www.github.com/ipfs/ipfs-gui): This repo, used for overall planning and cross-repo work
+- [ipfs/dir-index-html](https://www.github.com/ipfs/dir-index-html): Directory listing HTML for go-ipfs gateways
+- [ipfs/distributions](https://www.github.com/ipfs/distributions): Source code for https://dist.ipfs.io
+- [ipfs/i18n](https://www.github.com/ipfs/i18n): Internationalization work across all IPFS projects
+- [ipfs/public-gateway-checker](https://www.github.com/ipfs/public-gateway-checker): Source code for https://ipfs.github.io/public-gateway-checker/
+- [ipfs-shipyard/ipfs-companion](https://www.github.com/ipfs-shipyard/ipfs-companion): Browser extension that simplifies access to IPFS resources on the Web
+- [ipfs-shipyard/ipfs-css](https://www.github.com/ipfs-shipyard/ipfs-css): Single-purpose CSS rules and font-face config to add the IPFS look and feel to your UI
+- [ipfs-shipyard/ipfs-desktop](https://www.github.com/ipfs-shipyard/ipfs-desktop): An unobtrusive and user-friendly desktop application for IPFS on Windows, Mac and Linux
+- [ipfs-shipyard/ipfs-share-files](https://www.github.com/ipfs-shipyard/ipfs-share-files): Source code for https://share.ipfs.io
+- [ipfs-shipyard/ipfs-ui-style-guide](https://www.github.com/ipfs-shipyard/ipfs-ui-style-guide): UI style guide for IPFS apps
+- [ipfs-shipyard/ipfs-webui](https://www.github.com/ipfs-shipyard/ipfs-webui): Browser front-end for IPFS nodes
+- [ipfs-shipyard/ipld-explorer](https://www.github.com/ipfs-shipyard/ipld-explorer): Source code for https://explore.ipld.io
+- [ipfs-shipyard/ipld-explorer-components](https://www.github.com/ipfs-shipyard/ipld-explorer-components): React components for https://explore.ipld.io
 
 ## Status
 
