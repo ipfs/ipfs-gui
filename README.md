@@ -40,48 +40,37 @@ In addition to the apps above, the IPFS GUI group supports work on issues in all
 - **[ipfs-shipyard/ipld-explorer](https://www.github.com/ipfs-shipyard/ipld-explorer)**: Source code for https://explore.ipld.io
 - **[ipfs-shipyard/ipld-explorer-components](https://www.github.com/ipfs-shipyard/ipld-explorer-components)**: React components for https://explore.ipld.io
 
-## Status
+## Q2 2020 update
 
-Creating a cohesive family of helper tools benefits not only our current core market (existing IPFS developers), but also impacts nearly every other key stakeholder group — from potential devs to those in adjacent industries to the “civilian” dweb-curious. This has a direct impact on our goal to increase the number of nodes in the network.
-Establishing our app family as a unified “product suite” of helper tools via a consistent, feedback-driven user experience makes it easier for people to understand, use, and build on the IPFS protocol — while also making the distinction between the protocol and the tooling abundantly clear (this confusion is something that’s stood out in our Q1 2020 collabs interviews).
-Establishing standards for high-quality mental models and visual metaphors for IPFS gives guidance and inspiration to our partners and collabs who are creating end-user interfaces themselves — without stealing their thunder or trying to do their job. 
-Organizationally speaking, establishing a design-thinking-driven, product-design-informed approach to our IPFS app family gives us a low-cost way to test drive these design and product/project management methodologies for potential use elsewhere in PL.
+### Motivation
 
-This is a long-term approach — and one that will require developer cycles if it is to succeed — but in the near term, substantial inroads can be made. The following Q2 OKRs (to be undertaken by Jessica) will enable us to kick off app family efforts, with the understanding that as Q2 progresses with a project management framework in place, we can multiply effectiveness substantially by bringing on development help from Moxy as discussed.
-Q2 app family OKRs
-(P0) Objective: Establish a trackable, transparent home for app family work
-Key results:
-Repurpose the existing ipfs-gui repo as central home for family-wide UX/UI/product-strategy work; this includes consolidating any other repos that should collapse into this one
-Build an issue management framework in ZenHub consistent with our other project/product management practices (including standard issue labeling); include all relevant repos
-(P0) Objective: Evaluate the current state of the app family landscape by collecting, evaluating, and prioritizing existing issues
-Key results: 
-Issue queues for all three apps and other related repos examined, ranked, consolidated/reframed as necessary, and clearly visible in ZenHub
-Issue queues used to determine short-term/long-term staffing needs in both design/UX and development
-Issue queues ready for use in evaluating the existing landscape for overall UX/UI discrepancies and pain points
-(P1) Objective: Fix (x) number of outstanding UX/UI-related issues in app family, where (x) is a number defined by Jessica’s skill set and overall workload
-Key result: Closed issues
-(P1) Objective: Create first-draft mental model of the IPFS app family, cross-referenced against core goals and identified stakeholders
-If time allows, increase granularity of the model by adding basic user journeys cross-referenced against core goals and stakeholders
-If time allows, expand to make room for potential future journeys for “civilian” file sharing or other non-core-dev means of increasing the number of nodes online
+After considerable focus in 2019 on core aspects of the IPFS protocol itself, we aim to bring refreshed attention back to our GUI-driven tools, because ...
 
+- Establishing our app family as a unified suite via a consistent, feedback-driven user experience makes it easier for people to understand, use, and build on the IPFS protocol — regardless of the extent of their current IPFS expertise
+- Establishing standards for high-quality mental models and visual metaphors for IPFS gives guidance and inspiration to other IPFS developers who are creating end-user interfaces themselves — without stealing their thunder or trying to do their job
 
+We understand that this is a long-term approach, and intend to focus in Q2 2020 on the landscape analysis, issue consolidation and prioritization, and foundational work required to establish low-friction, consistent attention on our GUI-driven tools.
 
+### Q2 2020 OKRs
 
-## Resources
+As with every team within IPFS, the GUI group sets and adheres to quarterly OKRs (Objectives and Key Results) in order to guide our work. (You can see [all of the IPFS Project's quarterly OKRs here](https://docs.google.com/spreadsheets/d/1YTnvQ75v0jCuumOM9CPhx0BZHhJzZGy2u2ydU-rPh2w/edit#gid=2033312819).)
 
-#### Assets
-  - IPFS Logo - [repo](https://github.com/ipfs/logo) - _vector and raster logo assets_
-  - IPFS brand book - [_pdf_](https://github.com/ipfs-shipyard/ipfs-ui-style-guide/files/1629262/IPFS_brandbook.pdf) - _how to use the IPFS logo_
-  - IPFS UI kit - [_png_](img/ipfs-ui-kit.png) - _wip on a UI style guide_
-  - Web UI Wireframes - [_invision_](https://app.zeplin.io/project/5a32d45d1a17248135241058)
-  - Design Tools Research - [google doc](https://docs.google.com/document/d/1qJyfwgcMg8l3Tk3aYxF38iyYRhkEf3nlLNqOw4ZiW_8/edit)
-  - [IPFS color palette](resources/color-palette.md) in a bunch of formats
-  - [Research](research) including the original definition of this project
+1. Establish a trackable, transparent home for app family work
+    1. Repurpose the existing ipfs-gui repo as central home for family-wide UX/UI/product-strategy work; this includes consolidating any other repos that should collapse into this one
+    2. Build an issue management framework in ZenHub consistent with our other project/product management practices (including standard issue labeling); include all relevant repos
+2. Evaluate the current state of the app family landscape by collecting, evaluating, and prioritizing existing issues
+    1. Issue queues for all three apps and other related repos examined, ranked, consolidated/reframed as necessary, and clearly visible in ZenHub
+    2. Issue queues used to determine short-term/long-term staffing needs in both design/UX and development
+    3. Issue queues ready for use in evaluating the existing landscape for overall UX/UI discrepancies and pain points
+3. Close *x* outstanding UX/UI-related issues in app family, where *x* is a number defined by overall staffing and workload during the quarter *(note: this is intentionally vague in a time of global pandemic, but we will hope for the best)*
+4. Create first-draft mental model of the IPFS app family, cross-referenced against core goals and identified stakeholders
+    1. If time allows, increase granularity of the model by adding basic user journeys cross-referenced against core goals and stakeholders
+    2. If time allows, expand to make room for potential future journeys for “civilian” file sharing or other non-core-dev means of increasing the number of nodes online
 
 
 ## Get involved!
 
-### Join our open meetings
+### Join a meeting
 
 We'd love to meet you in person at one of our open meetings. They're a great way to get quickly up to speed on our work, including latest developments and awesome demos.
 
@@ -91,7 +80,7 @@ We'd love to meet you in person at one of our open meetings. They're a great way
 
 You can also explore [recordings](https://www.youtube.com/playlist?list=PLuhRWgmPaHtRIXVTy_ngBwvsXvWw10mR8) and [notes](https://github.com/ipfs/team-mgmt/tree/master/meeting-notes) from past meetings any time.
 
-### Contribute
+### Contribute to an issue
 
 Contributions to our work are more than welcome! The easiest way to see what issues are prioritized and on deck is to use our [unified public ZenHub board](https://app.zenhub.com/workspaces/-ipfs-app-family-ux-5e7a3123e969e659cdebb5e6/board?repos=111841602,32695583,36580101,24483721,142161410,119716282,116711586,38799513,142181521,147528357,148369983,40225364,104770273); our work hits a lot of repos, so having them in one place offers a good birds-eye view.
 
@@ -107,6 +96,16 @@ We're an open project and a friendly group, so please be nice and **read the [co
 ### Discuss in GitHub or IRC
 
 We do hang out on IRC — see the <a href="https://www.irccloud.com/invite?channel=%23ipfs-gui&amp;hostname=irc.freenode.net&amp;port=6697&amp;ssl=1"> #ipfs-gui channel on irc.freenode.net</a> — but for the sake of async communication, archiving, and searchability, we encourage discussions to happen in the context of GitHub issue comments whenever practical.
+
+## Resources
+
+If you're just looking for high-level visual and brand info, these resources may be helpful.
+
+- [IPFS Logo Files](https://github.com/ipfs/logo): Vector and raster logo assets
+- [IPFS Brand Book](https://github.com/ipfs-shipyard/ipfs-ui-style-guide/files/1629262/IPFS_brandbook.pdf): IPFS-wide brand guidance, including logo guidelines
+- [IPFS UI Summary](img/ipfs-ui-kit.png): Alpha-version UI style guide summary
+- [IPFS color palette](resources/color-palette.md): Official IPFS colors, in assorted formats
+- [Original GUI project research](research): Spring 2018 foundational research on IPFS GUIs, including the initial definition of this group's goals
 
 ## Maintainers
 
