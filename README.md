@@ -110,7 +110,6 @@ If you're just looking for high-level visual and brand info, these resources may
 ## Maintainers
 
 - [@alanshaw](https://github.com/alanshaw): WebUI and Companion dev
-- [@fsdiogo](https://github.com/fsdiogo): WebUI and Companion dev
 - [@hacdias](https://github.com/hacdias): Desktop lead dev and WebUI dev
 - [@jessicaschilling](https://github.com/jessicaschilling): UX strategist and sometimes-PM
 - [@lidel](https://github.com/lidel): Companion lead dev
