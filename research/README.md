@@ -1,5 +1,7 @@
 # The IPFS User Interface Project
 
+#### NOTE: This document was prepared in Spring 2018 as foundational research for the IPFS GUI group. Many things have changed since then! For the latest status and direction, please see the [top-level readme](https://github.com/ipfs/ipfs-gui/) in this repo.
+
 > Defining the ideal UI/UX for IPFS Desktop, Companion, & WebUI
 
 We want to make IPFS GUIs beautiful, reusable, and unified. To do this, we’ll gather together a list of the features that appear in Desktop, Companion and WebUI, compare their implementations, and find consensus on the ideal way to offer up each concept to the users.
