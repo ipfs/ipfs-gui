@@ -114,6 +114,7 @@ If you're just looking for high-level visual and brand info, these resources may
 - [@jessicaschilling](https://github.com/jessicaschilling): UX strategist and sometimes-PM
 - [@lidel](https://github.com/lidel): Companion lead dev
 - [@olizilla](https://github.com/olizilla): WebUI lead dev
+- [@rafaelramalho19](https://github.com/rafaelramalho19): Front-end dev across all projects
 - **... and you!**
 
 
