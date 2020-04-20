@@ -57,7 +57,7 @@ As with every team within IPFS, the GUI group sets and adheres to quarterly OKRs
 
 1. Establish a trackable, transparent home for app family work
     1. Repurpose the existing ipfs-gui repo as central home for family-wide UX/UI/product-strategy work; this includes consolidating any other repos that should collapse into this one
-    2. Build an issue management framework in ZenHub consistent with our other project/product management practices (including standard issue labeling); include all relevant repos
+    2. Build an issue management framework in ZenHub consistent with our other project/product management practices (including [standard issue labeling](https://github.com/ipfs/community/blob/master/ISSUE_LABELS.md)); include all relevant repos
 2. Evaluate the current state of the app family landscape by collecting, evaluating, and prioritizing existing issues
     1. Issue queues for all three apps and other related repos examined, ranked, consolidated/reframed as necessary, and clearly visible in ZenHub
     2. Issue queues used to determine short-term/long-term staffing needs in both design/UX and development
@@ -84,7 +84,7 @@ You can also explore [recordings](https://www.youtube.com/playlist?list=PLuhRWgm
 
 Contributions to our work are more than welcome! The easiest way to see what issues are prioritized and on deck is to use our [unified public ZenHub board](https://app.zenhub.com/workspaces/-ipfs-app-family-ux-5e7a3123e969e659cdebb5e6/board?repos=111841602,32695583,36580101,24483721,142161410,119716282,116711586,38799513,142181521,147528357,148369983,40225364,104770273); our work hits a lot of repos, so having them in one place offers a good birds-eye view.
 
-If you don't want to use ZenHub, that's cool too. Each of the repos listed under ["All projects"](#all-projects) above makes use of the IPFS Project's global issue labeling scheme. Good labels to look for are ...
+If you don't want to use ZenHub, that's cool too. Each of the repos listed under ["All projects"](#all-projects) above makes use of the IPFS Project's [global issue labeling scheme](https://github.com/ipfs/community/blob/master/ISSUE_LABELS.md). Good labels to look for are ...
 - `help wanted`
 - `good first issue`
 - and there are even occasional `bounty` labels for issues with rewards as part of the [IPFS Bounty Board](https://github.com/ipfs/devgrants/projects/1)!
