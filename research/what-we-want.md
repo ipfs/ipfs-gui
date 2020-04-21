@@ -5,7 +5,7 @@
 
 I want to run a local IPFS node so I can share files with friends super easily, without needing to use a service covered in adverts.
 
-I want to be able to PIN datasets that I think are important, so I can contribute a little bandwidth to there continued availability on the web.
+I want to be able to PIN datasets that I think are important, so I can contribute a little bandwidth to their continued availability on the web.
 
 I want to be able to host websites in IPFS, and have it be as easy as surge.sh / firebase hosting. I want it the site to still be available when I close my laptop.
 

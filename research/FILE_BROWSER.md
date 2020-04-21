@@ -5,7 +5,7 @@ I'm personally a fan of the windows 10 explorer UI:
 ![explorer](https://mspoweruser.com/wp-content/uploads/2016/03/Windows-File-Explorer.jpg)
 I would argue its the most successful file explorer UI, and much of what makes windows user friendly and pleasant to use.
 
-Notably, grid OR row layout, the 'location' bar up top, an 'up' button to go up a directory in the heirarchy.
+Notably, grid OR row layout, the 'location' bar up top, an 'up' button to go up a directory in the hierarchy.
 A 'quick bar' on the side might be nice, we may have some directories in the files api that are prefilled
 with things in the future.
 
@@ -88,7 +88,7 @@ api.files.read('/the/path/to/the/thing', function (err, stream) {
 ### Deleting an item
 To remove a file, call `ipfs.files.rm`, for a directory, pass the `recursive=true` option.
 Note that deleting an item from this view does not necessarily remove it from
-the users system. That only happens when `ipfs.repo.gc` gets run. It may be
+the user's system. That only happens when `ipfs.repo.gc` gets run. It may be
 worthwhile to have a UI element (like a trash bin on windows) that contains
 deleted files, and you can 'clean it out' which runs a gc.
 
@@ -127,7 +127,7 @@ api.files.cp('/ipfs/' + clipboardHash, (err) => {
 We have a short example tutorial for interacting with the files API on the command line [here](https://github.com/ipfs/examples/tree/master/examples/files).
 
 You'll probably want to put a few files in there manually to make working on the UI a little
-easier, That guide should cover it pretty well.
+easier. That guide should cover it pretty well.
 ## Previous work
 I wrote a very early version of this a long time ago: https://github.com/ipfs/file-browser
 (I'm not expecting this to be reused at all)
