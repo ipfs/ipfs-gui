@@ -90,7 +90,7 @@ File browsers / explorers:
 - https://tawus.files.wordpress.com/2011/08/filebrowser.png
 - https://i.stack.imgur.com/j1v4A.jpg <-- columns
 
-The column-based file system exploration fits our graphs very well, as well. This sould perhpas be the easiest to get working well. There's many examples and libraries out there.
+The column-based file system exploration fits our graphs very well, as well. This should perhaps be the easiest to get working well. There's many examples and libraries out there.
 
 
 ### Explorer 4. graphical version

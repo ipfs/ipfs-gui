@@ -34,7 +34,7 @@ See the [IPFS GUI Project Description](https://docs.google.com/document/d/1HzwTY
   - [Installation](#installation)
       - [Installing Companion in Firefox](#installing-companion-in-firefox)
       - [Installing Companion in Chrome](#installing-companion-in-chrome)
-      - [Installing Desktop on MacOS](#installing-desktop-on-macos)
+      - [Installing Desktop on macOS](#installing-desktop-on-macos)
   - [Interesting features that we should talk about](#interesting-features-that-we-should-talk-about)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -43,7 +43,7 @@ See the [IPFS GUI Project Description](https://docs.google.com/document/d/1HzwTY
 
 WebUI and Desktop share a similar sidebar navigation style. They have different names for sections and sections are not in the same order. WebUI offers a DAG explorer, while Desktop offers a hash Pinning section.
 
-Companion is a browser action, so presents a drop-down menu, with context sensitive options. It again offers different initial options, and has it's own names for things.
+Companion is a browser action, so presents a drop-down menu, with context sensitive options. It again offers different initial options, and has its own names for things.
 
 | webui      | desktop        | companion         |
 |------------|----------------|-------------------|
@@ -56,7 +56,7 @@ Companion is a browser action, so presents a drop-down menu, with context sensit
 
 Each of these will be explored in more detail below.
 
-A quick win would be to agree on the names of things, and their order of importance in a nav bar. For example we have Config, Settings and Open Preferences, to denote a similar action in all three apps. Of note WebUI is referring to it's IPFS node config, while Desktop is referring to app specific settings, like "launch at start up". Companion is referring to a similar concept as Desktop, as it also takes you to to add-on specific settings.
+A quick win would be to agree on the names of things, and their order of importance in a nav bar. For example we have Config, Settings and Open Preferences, to denote a similar action in all three apps. Of note WebUI is referring to its IPFS node config, while Desktop is referring to app specific settings, like "launch at start up". Companion is referring to a similar concept as Desktop, as it also takes you to add-on specific settings.
 
 ## IPFS Node info
 
@@ -96,16 +96,16 @@ Then there is the geocoded `Location`. It's fun, but has never been correct for 
 
 The `agent` & `protocol` version occupy prime UI space, front and center when you launch the app. This sort of info is normally place in an about menu; it's main use is debugging and issue reporting.
 
-There is then a section `NETWORK ADDRESSES` which shows the network interfaces that my node is bound to. These are presented in `multiaddr` form, which is new to most people, so would benefit from explaination, or moving off to a diagnostics page, rather than presenting them as the part of the initial user experience.
+There is then a section `NETWORK ADDRESSES` which shows the network interfaces that my node is bound to. These are presented in `multiaddr` form, which is new to most people, so would benefit from explanation, or moving off to a diagnostics page, rather than presenting them as the part of the initial user experience.
 
 Web UI has some useful meta-nav items for:
 
 - About ipfs - alas this just links to the ipfs.io homepage at the moment, but it's a nice idea to have an in app help and onboarding link available.
-- GitHub repo - That open-source issues list wont fix itself.
+- GitHub repo - That open-source issues list won't fix itself.
 - Report a bug - This is really nice. It jumps the user straight to the github create an issue page.
-- Enter a hash or path - This let's you paste in a CID and opens it in the DAG explorer tab to show the object links... the file list and their hashes in the case that the hash points to a directory.
+- Enter a hash or path - This lets you paste in a CID and opens it in the DAG explorer tab to show the object links... the file list and their hashes in the case that the hash points to a directory.
 
-**These items are absent from IPFS comapanion and desktop and should be considered.**
+**These items are absent from IPFS companion and desktop and should be considered.**
 
 ### Desktop > Info > Your Node
 
@@ -133,11 +133,11 @@ Other items are available, but only appear on scroll. I only found that out afte
 
 `Up/Down speed` What's using my bandwidth? Which hashes? or is it just DHT noise?
 
-`protocol version` ipfs/0.1.0... as per WebUI, This is diagnostics info, not front page material.
+`protocol version` ipfs/0.1.0... as per WebUI. This is diagnostics info, not front page material.
 
 `Addresses` - This is presented as a list of `multiaddr`s that is change every second. We need to identify what value this provides to the user and possibly remove it.
 
-`Public key` - A raw public key. What do can i do with it? What is the relationship to my Peer Id. Why show both?
+`Public key` - A raw public key. What do can I do with it? What is the relationship to my Peer Id. Why show both?
 
 ### Companion > Browser action menu stats
 
@@ -154,7 +154,7 @@ The stats in companion are significantly different to those in Desktop and WebUI
 
 ## Add Files
 
-All three apps provide drag'n'drop and and a file picker dialog to add a file.
+All three apps provide drag'n'drop and a file picker dialog to add a file.
 
 | webui | desktop | companion |
 |-------|---------|-----------|
@@ -170,7 +170,7 @@ Dropping a file gives positive feedback but nothing you can click on to see the 
 |---------------------|----------------------|
 | ![](img/002-add-file-webui-1.png) | ![](img/002-add-file-webui-2.png) |
 
-**Desktop** let's you drop files anywhere on it, but provides no indication that it's possible. Dropping a file works well as the file list shows filenames and is ordered by date added, so the file you just dropped appears at the top of the list.
+**Desktop** lets you drop files anywhere on it, but provides no indication that it's possible. Dropping a file works well as the file list shows filenames and is ordered by date added, so the file you just dropped appears at the top of the list.
 
 Adding a large file is handled, showing an indeterminate progress bar, which helps inform the user that something is happening.
 
@@ -199,7 +199,7 @@ Discussion: https://github.com/ipfs-shipyard/pm-ipfs-gui/issues/34
 
 **WebUI** offers nothing to help the user share a file in their repo. The file list presents a list of CIDs that the user can copy and paste, and manually edit to point to the gateway.
 
-**Desktop** offers a "Copy link" button when the user hovers over a file. Clicking copies the IPFS gateway address of the file to the users clipboard. No indication is given that the action succeeded. No other controls are provided, to edit or remove files.
+**Desktop** offers a "Copy link" button when the user hovers over a file. Clicking copies the IPFS gateway address of the file to the user's clipboard. No indication is given that the action succeeded. No other controls are provided, to edit or remove files.
 
 <img width='600' src='img/002-add-file-desktop-3.png' />
 
@@ -232,7 +232,7 @@ Desktop and WebUI both have a page for showing info about all the other IPFS nod
 |-------|---------|
 | ![](img/003-peers-webui-1.png) | ![](img/003-peers-desktop-1.png) |
 
-**WebUI** shows a peer count, geolocated pins on a globe and list of Peer Id / Multiaddr pairs for each connection. Clicking on a list item expands it to show similar node info as show on the Home page about your local node. The process is resource intensive and causes "slow script" warnings in firefox.
+**WebUI** shows a peer count, geolocated pins on a globe and list of Peer Id / Multiaddr pairs for each connection. Clicking on a list item expands it to show similar node info as show on the Home page about your local node. The process is resource intensive and causes "slow script" warnings in Firefox.
 
 **Desktop** Shows your location and peer count, along with a list of Peer Id / Location pairs. No more info is available about the peers. There is a search bar that allows you to search for peers by id or location.
 
@@ -242,7 +242,7 @@ Desktop and WebUI both have a page for showing info about all the other IPFS nod
 
 Discussion: https://github.com/ipfs-shipyard/pm-ipfs-gui/issues/11
 
-**WebUI** has a DAG explorer, which might be due a rename to "IPLD Explorer". It takes an IPFS hash (also due a rename to CID) and lists out all the links or data that in the object the CID points to. In the case of a directory, you can see a list of the files it contains, and each filename is a link to it's IPLD object, allowing you drill down, navigating through the links. Where a hash points to data, the raw data is rendered in plain text.
+**WebUI** has a DAG explorer, which might be due a rename to "IPLD Explorer". It takes an IPFS hash (also due a rename to CID) and lists out all the links or data that in the object the CID points to. In the case of a directory, you can see a list of the files it contains, and each filename is a link to its IPLD object, allowing you drill down, navigating through the links. Where a hash points to data, the raw data is rendered in plain text.
 
 | Empty state | Explore a cid | Drill into a data node |
 |-|-|-|
@@ -292,9 +292,9 @@ We need to think about how that comes across to the user. We can keep app settin
 
 ## Start / Stop IPFS Node
 
-Desktop let's you start and stop your IPFS node. Companion and WebUI don't
+Desktop lets you start and stop your IPFS node. Companion and WebUI don't
 
-In Desktop the control is shown as a the `Power` icon, bottom right. It's not clear that that is it's purpose. I initially thought it was a fancy quit this app button.
+In Desktop the control is shown as a the `Power` icon, bottom right. It's not clear that that is its purpose. I initially thought it was a fancy quit this app button.
 
 <img width=600 title='IPFS Desktop with a stopped IPFS node' src='img/desktop-node-stopped.png' />
 
@@ -326,7 +326,7 @@ The user journey starts with the install steps, so we should consider what we ca
 
 ![Installing Companion in Firefox](img/000-install-companion-chrome.gif)
 
-#### Installing Desktop on MacOS
+#### Installing Desktop on macOS
 
 | Download from Github. Open .dmg | Find in Applications, click, deal with warning. |
 |----------------------|------------------------|
@@ -349,10 +349,10 @@ We should pick one or the other. We can build both as two separate apps, but we 
 
 **DAG Explorer instead of a search bar**. Paste in a CID, see info about it. This seems it could be hugely useful for letting people play with IPLD and IPFS to build an intuition of how it fits together.
 
-**Share file link**. The most useful link to share right now is an url to a gateway. Anyone running Companion could resolve it via ipfs, and anyone not would have a working fallback. Presenting multiple options, one of which would require all your collegues to also be already using ipfs to work seems unhelpful at this point.
+**Share file link**. The most useful link to share right now is an url to a gateway. Anyone running Companion could resolve it via ipfs, and anyone not would have a working fallback. Presenting multiple options, one of which would require all your colleagues to also be already using ipfs to work seems unhelpful at this point.
 
 **Pinning**
-A use-case for this is the [data-together](https://datatogether.org/) idea of sharing the hosting of content you feel is important. You can go to https://archives.ipfs.io/ and grab a hash for a dataset and replicate it all to your repo, to add more copies of it to the network and increase it's availability.
+A use-case for this is the [data-together](https://datatogether.org/) idea of sharing the hosting of content you feel is important. You can go to https://archives.ipfs.io/ and grab a hash for a dataset and replicate it all to your repo, to add more copies of it to the network and increase its availability.
 
 <img width='888' src='img/005-pin-archive-1.png' />
 
