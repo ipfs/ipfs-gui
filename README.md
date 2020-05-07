@@ -74,7 +74,7 @@ As with every team within IPFS, the GUI group sets and adheres to quarterly OKRs
 
 We'd love to meet you in person at one of our open meetings. They're a great way to get quickly up to speed on our work, including latest developments and awesome demos.
 
-- **When:** Every other Wednesday at 17:00 UTC (check the [IPFS Calendar](https://calendar.google.com/calendar/embed?src=ipfs.io_eal36ugu5e75s207gfjcu0ae84@group.calendar.google.com&ctz=UTC) to see exact dates!)
+- **When:** Every other Tuesda at 16:30 UTC (check the [IPFS Calendar](https://calendar.google.com/calendar/embed?src=ipfs.io_eal36ugu5e75s207gfjcu0ae84@group.calendar.google.com&ctz=UTC) to see exact dates!)
 - **Where:** https://protocol.zoom.us/j/833247793
 - **Agenda**: https://hackmd.io/QaxiCU8BQqOuK8B8Tdi36g
 
