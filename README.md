@@ -17,10 +17,12 @@ Our goal is to **create visual and interaction standards and patterns for workin
 
 Our primary focus is on the three Protocol Labs-led "helper" apps that provide a GUI for IPFS as a whole. Our aim is to make them useful for seasoned IPFS developers while also offering a welcoming introduction to IPFS for those less experienced.
 
-| IPFS Companion | IPFS WebUI | IPFS Desktop |
+| IPFS Companion | IPFS Web UI | IPFS Desktop |
 |:-:|:-:|:-:|
 | [<img title="IPFS Companion" src="https://ipfs.io/images/ipfs-companion-hex.png" />][IPFS Companion] | [<img title="Web UI screenshot" src="img/webui-hex.png" />][IPFS Web UI] | [<img title="IPFS Desktop" src="https://ipfs.io/images/ipfs-desktop-hex.png" />][IPFS Desktop] |
 | [Browser extension](https://github.com/ipfs/ipfs-companion) for opening ipfs:// URLs, saving/sharing files, and more| [IPFS file manager and network explorer](https://github.com/ipfs-shipyard/ipfs-webui) in your browser | Launch and manage IPFS from a friendly, intuitive [desktop app](https://www.github.com/ipfs-shipyard/ipfs-desktop) |
+
+For a more comprehensive overview of the resources that come together to build, support, and provide education around Web UI, Desktop, and Companion, please see the [IPFS GUI Family Mental Model](https://www.figma.com/proto/EDrHTYUhJTEa0GU8Q5zEDG/IPFS-app-family-Mental-model-dashboard?node-id=12%3A2647&viewport=981%2C1935%2C1.0592646598815918&scaling=contain).
 
 ### All projects
 
