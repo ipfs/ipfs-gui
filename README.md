@@ -63,7 +63,7 @@ As with every team within IPFS, the GUI group sets and adheres to quarterly OKRs
     2. Issue queues used to determine short-term/long-term staffing needs in both design/UX and development
     3. Issue queues ready for use in evaluating the existing landscape for overall UX/UI discrepancies and pain points
 3. Close *x* outstanding UX/UI-related issues in app family, where *x* is a number defined by overall staffing and workload during the quarter *(note: this is intentionally vague in a time of global pandemic, but we will hope for the best)*
-4. Create [first-draft mental model](https://www.figma.com/proto/EDrHTYUhJTEa0GU8Q5zEDG/IPFS-app-family-Mental-model-dashboard?node-id=1%3A2&viewport=-4787%2C-325%2C0.6132321953773499&scaling=contain) of the IPFS app family, cross-referenced against core goals and identified stakeholders
+4. Create [first-draft mental model](https://www.figma.com/proto/EDrHTYUhJTEa0GU8Q5zEDG/IPFS-app-family-Mental-model-dashboard?node-id=1%3A2&viewport=-4787%2C-325%2C0.6132321953773499&scaling=contain) of the IPFS GUI family, cross-referenced against core goals and identified stakeholders
     1. ~~If time allows,~~ Increase granularity of the model by adding basic user journeys cross-referenced against core goals and stakeholders
     2. ~~If time allows,~~ Augment with basic potential future journeys for “civilian” file sharing or other non-core-dev means of increasing the number of nodes online
 
