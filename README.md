@@ -22,7 +22,7 @@ Our primary focus is on the three Protocol Labs-led "helper" apps that provide a
 | [<img title="IPFS Companion" src="https://ipfs.io/images/ipfs-companion-hex.png" />][IPFS Companion] | [<img title="Web UI screenshot" src="img/webui-hex.png" />][IPFS Web UI] | [<img title="IPFS Desktop" src="https://ipfs.io/images/ipfs-desktop-hex.png" />][IPFS Desktop] |
 | [Browser extension](https://github.com/ipfs/ipfs-companion) for opening ipfs:// URLs, saving/sharing files, and more| [IPFS file manager and network explorer](https://github.com/ipfs-shipyard/ipfs-webui) in your browser | Launch and manage IPFS from a friendly, intuitive [desktop app](https://www.github.com/ipfs-shipyard/ipfs-desktop) |
 
-For a more comprehensive overview of the resources that come together to build, support, and provide education around Web UI, Desktop, and Companion, please see the [IPFS GUI Family Mental Model](https://www.figma.com/proto/EDrHTYUhJTEa0GU8Q5zEDG/IPFS-app-family-Mental-model-dashboard?node-id=12%3A2647&viewport=981%2C1935%2C1.0592646598815918&scaling=contain).
+For a more comprehensive overview of the resources that come together to build, support, and provide education around Web UI, Desktop, and Companion, please see the [IPFS GUI Family Mental Model](https://ipfs-gui-mental-model.netlify.app/).
 
 ### All projects
 
@@ -65,7 +65,7 @@ As with every team within IPFS, the GUI group sets and adheres to quarterly OKRs
     2. Issue queues used to determine short-term/long-term staffing needs in both design/UX and development
     3. Issue queues ready for use in evaluating the existing landscape for overall UX/UI discrepancies and pain points
 3. Close *x* outstanding UX/UI-related issues in app family, where *x* is a number defined by overall staffing and workload during the quarter *(note: this is intentionally vague in a time of global pandemic, but we will hope for the best)*
-4. Create [first-draft mental model](https://www.figma.com/proto/EDrHTYUhJTEa0GU8Q5zEDG/IPFS-app-family-Mental-model-dashboard?node-id=1%3A2&viewport=-4787%2C-325%2C0.6132321953773499&scaling=contain) of the IPFS GUI family, cross-referenced against core goals and identified stakeholders
+4. Create [first-draft mental model](https://ipfs-gui-mental-model.netlify.app/) of the IPFS GUI family, cross-referenced against core goals and identified stakeholders
     1. ~~If time allows,~~ Increase granularity of the model by adding basic user journeys cross-referenced against core goals and stakeholders
     2. ~~If time allows,~~ Augment with basic potential future journeys for “civilian” file sharing or other non-core-dev means of increasing the number of nodes online
 
