@@ -1,4 +1,5 @@
 # The IPFS GUI group
+*Half of the [Web Browsers](https://github.com/ipfs/in-web-browsers) & GUI Working Group*
 
 [![Made by icon.](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat)](https://protocol.ai/)
 [![Project icon.](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat)](http://ipfs.io/)
@@ -42,39 +43,37 @@ In addition to the apps above, the IPFS GUI group supports work on issues in all
 - **[ipfs-shipyard/ipld-explorer](https://www.github.com/ipfs-shipyard/ipld-explorer)**: Source code for https://explore.ipld.io
 - **[ipfs-shipyard/ipld-explorer-components](https://www.github.com/ipfs-shipyard/ipld-explorer-components)**: React components for https://explore.ipld.io
 
-## Q2 2020 update
+## Q3 2020 update
 
-### Motivation
+### Now half of the Web Browsers & GUI Working Group!
 
-After considerable focus in 2019 on core aspects of the IPFS protocol itself, we aim to bring refreshed attention back to our GUI-driven tools, because ...
+After a Q2 of [research](https://docs.google.com/document/d/1V5sDSxMqhhplpcB8u8CffiGWHUvw-t4p_sn5vigdR90/edit#) and [analysis](https://ipfs-gui-mental-model.netlify.app/) — as well as seeing the concrete gains provided by GUI-based work on IPFS — the IPFS core team has re-activated the **Web Browsers & GUI Working Group**. This group operates with a focus on furthering browser adoption and integration, as well as improving the functionality and usability of our GUI-based tools as a whole, with a particular focus on benefiting the onboarding of new IPFS developers and users.
 
-- Establishing our app family as a unified suite via a consistent, feedback-driven user experience makes it easier for people to understand, use, and build on the IPFS protocol — regardless of the extent of their current IPFS expertise
-- Establishing standards for high-quality mental models and visual metaphors for IPFS gives guidance and inspiration to other IPFS developers who are creating end-user interfaces themselves — without stealing their thunder or trying to do their job
+### Q3 2020 OKRs (WG-wide)
 
-We understand that this is a long-term approach, and intend to focus in Q2 2020 on the landscape analysis, issue consolidation and prioritization, and foundational work required to establish low-friction, consistent attention on our GUI-driven tools.
+As with every team within IPFS, the Web Browsers & GUI Working Group sets and adheres to quarterly OKRs (Objectives and Key Results) in order to guide our work. (You can see [all of the IPFS Project's quarterly OKRs here](https://docs.google.com/spreadsheets/d/1KVe3JCsfB-l47-DE5gvk7bT0Yly_EAPrHCi-8kCthy4/edit#gid=2125992746).)
 
-### Q2 2020 OKRs
-
-As with every team within IPFS, the GUI group sets and adheres to quarterly OKRs (Objectives and Key Results) in order to guide our work. (You can see [all of the IPFS Project's quarterly OKRs here](https://docs.google.com/spreadsheets/d/1YTnvQ75v0jCuumOM9CPhx0BZHhJzZGy2u2ydU-rPh2w/edit#gid=2033312819).)
-
-1. Establish a trackable, transparent home for app family work
-    1. Repurpose the existing ipfs-gui repo as central home for family-wide UX/UI/product-strategy work; this includes consolidating any other repos that should collapse into this one
-    2. Build an issue management framework in ZenHub consistent with our other project/product management practices (including [standard issue labeling](https://github.com/ipfs/community/blob/master/ISSUE_LABELS.md)); include all relevant repos
-2. Evaluate the current state of the app family landscape by collecting, evaluating, and prioritizing existing issues
-    1. Issue queues for all three apps and other related repos examined, ranked, consolidated/reframed as necessary, and clearly visible in ZenHub
-    2. Issue queues used to determine short-term/long-term staffing needs in both design/UX and development
-    3. Issue queues ready for use in evaluating the existing landscape for overall UX/UI discrepancies and pain points
-3. Close *x* outstanding UX/UI-related issues in app family, where *x* is a number defined by overall staffing and workload during the quarter *(note: this is intentionally vague in a time of global pandemic, but we will hope for the best)*
-4. Create [first-draft mental model](https://ipfs-gui-mental-model.netlify.app/) of the IPFS GUI family, cross-referenced against core goals and identified stakeholders
-    1. ~~If time allows,~~ Increase granularity of the model by adding basic user journeys cross-referenced against core goals and stakeholders
-    2. ~~If time allows,~~ Augment with basic potential future journeys for “civilian” file sharing or other non-core-dev means of increasing the number of nodes online
-
+1. Remote (third-party) pinning services are easy to use
+    - Generic pinning service API spec finalized
+    - `go-ipfs`/`js-ipfs`/http-client support remote pins via HTTP API
+    - User flows resulting from API are understood and implemented in IPFS Companion and IPFS Desktop/Web UI
+    - 2+ collabs implement API and are included in Desktop/Web UI's pinning service settings
+    - Desktop/Web UI is capable of importing a 4GB file on low-memory devices
+2. Maintain and improve GUI tools as a whole (as bandwidth permits in a quarter focused on Filecoin enablement)
+    - Grow IPFS usage through onboarding improvements
+    - Ship libs for sharing IPFS nodes across browsing contexts (tabs) on same origin
+    - Understand sharing an IPFS node across different origins
+    - Understand ways of leveraging IPFS Desktop when present
+3. Ongoing browser collabs and grants are supported
+    - Brave integration of embedded `go-ipfs` and native URIs
+    - Igalia’s work on `navigator.registerProtocolHandler` and browser extension APIs
+    - Kiwix is able to host ZIM on IPFS
 
 ## Get involved!
 
 ### Join a meeting
 
-We'd love to meet you in person at one of our open meetings. They're a great way to get quickly up to speed on our work, including latest developments and awesome demos.
+We'd love to meet you in person at one of our open Web Browsers & GUI Working Group meetings. They're a great way to get quickly up to speed on our work, including latest developments and awesome demos.
 
 - **When:** Every other Tuesday at 16:30 UTC (check the [IPFS Calendar](https://calendar.google.com/calendar/embed?src=ipfs.io_eal36ugu5e75s207gfjcu0ae84@group.calendar.google.com&ctz=UTC) to see exact dates!)
 - **Where:** https://protocol.zoom.us/j/833247793
@@ -84,7 +83,7 @@ You can also explore [recordings](https://www.youtube.com/playlist?list=PLuhRWgm
 
 ### Contribute to an issue
 
-Contributions to our work are more than welcome! The easiest way to see what issues are prioritized and on deck is to use our [unified public ZenHub board](https://app.zenhub.com/workspaces/-ipfs-app-family-ux-5e7a3123e969e659cdebb5e6/board?repos=111841602,32695583,36580101,24483721,142161410,119716282,116711586,38799513,142181521,147528357,148369983,40225364,104770273); our work hits a lot of repos, so having them in one place offers a good birds-eye view.
+Contributions to our work are more than welcome! The easiest way to see what issues are prioritized and on deck across the GUI space is to use our [unified public ZenHub board](https://app.zenhub.com/workspaces/-ipfs-app-family-ux-5e7a3123e969e659cdebb5e6/board?repos=111841602,32695583,36580101,24483721,142161410,119716282,116711586,38799513,142181521,147528357,148369983,40225364,104770273); our work hits a lot of repos, so having them in one place offers a good birds-eye view.
 
 If you don't want to use ZenHub, that's cool too. Each of the repos listed under ["All projects"](#all-projects) above makes use of the IPFS Project's [global issue labeling scheme](https://github.com/ipfs/community/blob/master/ISSUE_LABELS.md). Good labels to look for are ...
 - `help wanted`
@@ -101,20 +100,21 @@ We do hang out on IRC — see the <a href="https://www.irccloud.com/invite?chann
 
 ## Resources
 
-If you're just looking for high-level visual and brand info, these resources may be helpful.
+If you're looking for high-level research or visual and brand info, these resources may be helpful.
 
-- [IPFS Logo Files](https://github.com/ipfs/logo): Vector and raster logo assets
-- [IPFS Brand Book](https://github.com/ipfs-shipyard/ipfs-ui-style-guide/files/1629262/IPFS_brandbook.pdf): IPFS-wide brand guidance, including logo guidelines
-- [IPFS UI Summary](img/ipfs-ui-kit.png): Alpha-version UI style guide summary
-- [IPFS color palette](resources/color-palette.md): Official IPFS colors, in assorted formats
+- [IPFS GUI Family Mental Model](https://ipfs-gui-mental-model.netlify.app/): June 2020 framework for understanding how IPFS’ various GUI-based tools work together to provide cohesive, consistent enablers to using and building on IPFS for a variety of developer and non-developer stakeholder groups
+- [June 2020 user research report](https://docs.google.com/document/d/1V5sDSxMqhhplpcB8u8CffiGWHUvw-t4p_sn5vigdR90/edit#): Survey analysis offering guidance on next actions for enhancements to the IPFS GUI tool family
 - [Original GUI project research](research): Spring 2018 foundational research on IPFS GUIs, including the initial definition of this group's goals
+- [IPFS color palette](https://github.com/ipfs-shipyard/ipfs-css#colors): Official IPFS colors as part of [`ipfs-css`]((https://github.com/ipfs-shipyard/ipfs-css)
+- [IPFS logo files](https://github.com/ipfs-inactive/logo): Vector and raster logo assets
+- [IPFS brand book](https://github.com/ipfs-shipyard/ipfs-ui-style-guide/files/1629262/IPFS_brandbook.pdf): IPFS-wide brand guidance, including logo guidelines
+- [IPFS UI Summary](img/ipfs-ui-kit.png): Alpha-version UI style guide summary
 
 ## Maintainers
-
-- [@alanshaw](https://github.com/alanshaw): WebUI and Companion dev
+- [@lidel](https://github.com/lidel): GUI/In-Web-Browsers WG lead and Companion lead dev
+- [@gozala](https://github.com/gozala): Developer and researcher across all projects
 - [@hacdias](https://github.com/hacdias): Desktop lead dev and WebUI dev
-- [@jessicaschilling](https://github.com/jessicaschilling): UX strategist and sometimes-PM
-- [@lidel](https://github.com/lidel): Companion lead dev
+- [@jessicaschilling](https://github.com/jessicaschilling): UX strategist, occasional PM and front-end dev
 - [@olizilla](https://github.com/olizilla): WebUI lead dev
 - [@rafaelramalho19](https://github.com/rafaelramalho19): Front-end dev across all projects
 - **... and you!**
