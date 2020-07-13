@@ -105,7 +105,7 @@ If you're looking for high-level research or visual and brand info, these resour
 - [IPFS GUI Family Mental Model](https://ipfs-gui-mental-model.netlify.app/): June 2020 framework for understanding how IPFS’ various GUI-based tools work together to provide cohesive, consistent enablers to using and building on IPFS for a variety of developer and non-developer stakeholder groups
 - [June 2020 user research report](https://docs.google.com/document/d/1V5sDSxMqhhplpcB8u8CffiGWHUvw-t4p_sn5vigdR90/edit#): Survey analysis offering guidance on next actions for enhancements to the IPFS GUI tool family
 - [Original GUI project research](research): Spring 2018 foundational research on IPFS GUIs, including the initial definition of this group's goals
-- [IPFS color palette](https://github.com/ipfs-shipyard/ipfs-css#colors): Official IPFS colors as part of [`ipfs-css`]((https://github.com/ipfs-shipyard/ipfs-css)
+- [IPFS color palette](https://github.com/ipfs-shipyard/ipfs-css#colors): Official IPFS colors as part of [`ipfs-css`](https://github.com/ipfs-shipyard/ipfs-css)
 - [IPFS logo files](https://github.com/ipfs-inactive/logo): Vector and raster logo assets
 - [IPFS brand book](https://github.com/ipfs-shipyard/ipfs-ui-style-guide/files/1629262/IPFS_brandbook.pdf): IPFS-wide brand guidance, including logo guidelines
 - [IPFS UI Summary](img/ipfs-ui-kit.png): Alpha-version UI style guide summary
