@@ -1,5 +1,5 @@
 # The IPFS GUI group
-*Half of the [Web Browsers](https://github.com/ipfs/in-web-browsers) & GUI Working Group*
+*Half of the IPFS [Web Browsers](https://github.com/ipfs/in-web-browsers) & GUI Working Group*
 
 [![Made by icon.](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat)](https://protocol.ai/)
 [![Project icon.](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat)](http://ipfs.io/)
@@ -47,7 +47,7 @@ In addition to the apps above, the IPFS GUI group supports work on issues in all
 
 ### Now half of the Web Browsers & GUI Working Group!
 
-After a Q2 of [research](https://docs.google.com/document/d/1V5sDSxMqhhplpcB8u8CffiGWHUvw-t4p_sn5vigdR90/edit#) and [analysis](https://ipfs-gui-mental-model.netlify.app/) — as well as seeing the concrete gains provided by GUI-based work on IPFS — the IPFS core team has re-activated the **Web Browsers & GUI Working Group**. This group operates with a focus on furthering browser adoption and integration, as well as improving the functionality and usability of our GUI-based tools as a whole, with a particular focus on benefiting the onboarding of new IPFS developers and users.
+After a Q2 of [research](https://docs.google.com/document/d/1V5sDSxMqhhplpcB8u8CffiGWHUvw-t4p_sn5vigdR90/edit#) and [analysis](https://ipfs-gui-mental-model.netlify.app/) — as well as seeing the concrete gains provided by GUI-based work on IPFS — the IPFS core team has re-activated the **Web Browsers & GUI Working Group** as a combined team of this group and the [IPFS in-web-browsers group](https://github.com/ipfs/in-web-browsers). This larger working group operates with a focus on furthering browser adoption and integration, as well as improving the functionality and usability of our GUI-based tools as a whole, with a particular focus on benefiting the onboarding of new IPFS developers and users.
 
 ### Q3 2020 OKRs (WG-wide)
 
