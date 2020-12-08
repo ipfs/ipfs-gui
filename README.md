@@ -49,26 +49,6 @@ In addition to the apps above, the IPFS GUI group supports work on issues in all
 
 After a Q2 of [research](https://docs.google.com/document/d/1V5sDSxMqhhplpcB8u8CffiGWHUvw-t4p_sn5vigdR90/edit#) and [analysis](https://ipfs-gui-mental-model.netlify.app/) — as well as seeing the concrete gains provided by GUI-based work on IPFS — the IPFS core team has re-activated the **Web Browsers & GUI Working Group** as a combined team of this group and the [IPFS in-web-browsers group](https://github.com/ipfs/in-web-browsers). This larger working group operates with a focus on furthering browser adoption and integration, as well as improving the functionality and usability of our GUI-based tools as a whole, with a particular focus on benefiting the onboarding of new IPFS developers and users.
 
-### Q3 2020 OKRs (WG-wide)
-
-As with every team within IPFS, the Web Browsers & GUI Working Group sets and adheres to quarterly OKRs (Objectives and Key Results) in order to guide our work. (You can see [all of the IPFS Project's quarterly OKRs here](https://docs.google.com/spreadsheets/d/1KVe3JCsfB-l47-DE5gvk7bT0Yly_EAPrHCi-8kCthy4/edit#gid=2125992746).)
-
-1. Remote (third-party) pinning services are easy to use
-    - Generic pinning service API spec finalized
-    - `go-ipfs`/`js-ipfs`/http-client support remote pins via HTTP API
-    - User flows resulting from API are understood and implemented in IPFS Companion and IPFS Desktop/Web UI
-    - 2+ collabs implement API and are included in Desktop/Web UI's pinning service settings
-    - Desktop/Web UI is capable of importing a 4GB file on low-memory devices
-2. Maintain and improve GUI tools as a whole (as bandwidth permits in a quarter focused on Filecoin enablement)
-    - Grow IPFS usage through onboarding improvements
-    - Ship libs for sharing IPFS nodes across browsing contexts (tabs) on same origin
-    - Understand sharing an IPFS node across different origins
-    - Understand ways of leveraging IPFS Desktop when present
-3. Ongoing browser collabs and grants are supported
-    - Brave integration of embedded `go-ipfs` and native URIs
-    - Igalia’s work on `navigator.registerProtocolHandler` and browser extension APIs
-    - Kiwix is able to host ZIM on IPFS
-
 ## Get involved!
 
 ### Join a meeting
