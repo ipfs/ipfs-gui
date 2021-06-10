@@ -55,9 +55,11 @@ If you see an issue that catches your eye, leave a comment so we know you're int
 
 We're an open project and a friendly group, so please be nice and **read the [contributing guidelines](https://github.com/ipfs/community/blob/master/CONTRIBUTING_JS.md)** when you're ready to jump in.
 
-### Discuss in GitHub or IRC
+### Discuss in GitHub or chat
 
-We do hang out on IRC — see the [#ipfs](https://www.irccloud.com/invite?channel=%23ipfs&amp;hostname=irc.freenode.net&amp;port=6697&amp;ssl=1") and [#ipfs-gui](https://www.irccloud.com/invite?channel=%23ipfs-gui&amp;hostname=irc.freenode.net&amp;port=6697&amp;ssl=1") channels on irc.freenode.net — but for the sake of async communication, archiving, and searchability, we encourage discussions to happen in the context of GitHub issue comments whenever practical.
+**For the sake of async communication, archiving, and searchability, we strongly encourage discussions to happen in the context of GitHub issue comments whenever practical.**
+
+For casual conversation, our official chat rooms in [Matrix[(https://app.element.io/#/room/#lobby:ipfs.io) and [Discord](https://discord.gg/Z4H6tdECb9) are bridged, so you can join whichever you prefer. They can be used to ask questions and discuss with the community — however, while IPFS core developers are usually in these rooms, it can be hard to keep up with the running conversation and questions can be missed or disappear due to a lack of indexing.
 
 ## Resources
 
