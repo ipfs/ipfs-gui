@@ -41,6 +41,8 @@ In addition to the apps above, IPFS GUIs can be considered to include aspects of
 - **[ipfs-shipyard/ipfs-webui](https://www.github.com/ipfs-shipyard/ipfs-webui)**: Browser front-end for IPFS nodes
 - **[ipfs-shipyard/ipld-explorer](https://www.github.com/ipfs-shipyard/ipld-explorer)**: Source code for https://explore.ipld.io
 - **[ipfs-shipyard/ipld-explorer-components](https://www.github.com/ipfs-shipyard/ipld-explorer-components)**: React components for https://explore.ipld.io
+- **[ipfs-shipyard/pinning-service-compliance](https://www.github.com/ipfs-shipyard/pinning-service-compliance)**: A test suite to help see which pinning service providers are correctly implementing the [pinning services spec](https://ipfs.github.io/pinning-services-api-spec/).
+- **[ipfs-shipyard/js-pinning-service-http-client](https://github.com/ipfs-shipyard/js-pinning-service-http-client)**: A pinning service client for the browser and node
 
 ## Get involved!
 
