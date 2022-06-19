@@ -29,21 +29,18 @@ For a more comprehensive overview of the resources that come together to build, 
 In addition to the apps above, IPFS GUIs can be considered to include aspects of all of the following repos:
 
 - **[ipfs/ipfs-gui](https://www.github.com/ipfs/ipfs-gui)**: This repo, used for overall planning and cross-repo work
-- **[ipfs/distributions](https://www.github.com/ipfs/distributions)**: Source code for https://dist.ipfs.io
+- **[ipfs/distributions/site](https://github.com/ipfs/distributions/tree/master/site)**: Visual side of https://dist.ipfs.io website
 - **[ipfs/public-gateway-checker](https://www.github.com/ipfs/public-gateway-checker)**: Source code for https://ipfs.github.io/public-gateway-checker/
 - **[ipfs/ipfs-companion](https://github.com/ipfs/ipfs-companion)**: Browser extension that simplifies access to IPFS resources on the Web
-- **[ipfs/ipld-explorer-components](https://github.com/ipfs/ipld-explorer-components)**: React components for https://explore.ipld.io
 - **[ipfs/ipfs-webui](https://github.com/ipfs/ipfs-webui)**: Browser front-end for IPFS nodes
 - **[ipfs/ipfs-desktop](https://github.com/ipfs/ipfs-desktop)**: An unobtrusive and user-friendly desktop application for IPFS on Windows, Mac and Linux
 - **[ipld/explore.ipld.io](https://github.com/ipld/explore.ipld.io)**: Source code for https://explore.ipld.io
+  - **[ipfs/ipld-explorer-components](https://github.com/ipfs/ipld-explorer-components)**: React components for https://explore.ipld.io and ipfs-webui
 - **[ipfs-shipyard/i18n](https://github.com/ipfs-shipyard/i18n)**: Internationalization work across all IPFS projects
 - **[ipfs-shipyard/ipfs-css](https://www.github.com/ipfs-shipyard/ipfs-css)**: Single-purpose CSS rules and font-face config to add the IPFS look and feel to your UI
 - **[ipfs-shipyard/ipfs-share-files](https://www.github.com/ipfs-shipyard/ipfs-share-files)**: Source code for https://share.ipfs.io
 - **[ipfs-shipyard/ipfs-ui-style-guide](https://www.github.com/ipfs-shipyard/ipfs-ui-style-guide)**: UI style guide for IPFS apps
-
-#### Archived
-
-- **[ipfs/dir-index-html](https://www.github.com/ipfs/dir-index-html)**: Directory listing HTML for go-ipfs gateways
+- **[kubo/dir-index-html](https://github.com/ipfs/go-ipfs/tree/master/assets/dir-index-html)**: Directory listing HTML for kubo (go-ipfs) gateways
 
 ## Get involved!
 
