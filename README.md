@@ -40,6 +40,8 @@ In addition to the apps above, IPFS GUIs can be considered to include aspects of
 - **[ipfs-shipyard/ipfs-css](https://www.github.com/ipfs-shipyard/ipfs-css)**: Single-purpose CSS rules and font-face config to add the IPFS look and feel to your UI
 - **[ipfs-shipyard/ipfs-share-files](https://www.github.com/ipfs-shipyard/ipfs-share-files)**: Source code for https://share.ipfs.io
 - **[ipfs-shipyard/ipfs-ui-style-guide](https://www.github.com/ipfs-shipyard/ipfs-ui-style-guide)**: UI style guide for IPFS apps
+- **[ipfs-shipyard/pinning-service-compliance](https://www.github.com/ipfs-shipyard/pinning-service-compliance)**: A test suite to help see which pinning service providers are correctly implementing the [pinning services spec](https://ipfs.github.io/pinning-services-api-spec/).
+- **[ipfs-shipyard/js-pinning-service-http-client](https://github.com/ipfs-shipyard/js-pinning-service-http-client)**: A pinning service client for the browser and node
 - **[kubo/dir-index-html](https://github.com/ipfs/go-ipfs/tree/master/assets/dir-index-html)**: Directory listing HTML for kubo (go-ipfs) gateways
 
 ## Get involved!
