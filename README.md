@@ -11,6 +11,8 @@ The IPFS project has an ongoing, long-running ambition to **create visual and in
 - **Reusable**: Offer compelling standards and atomic patterns to the community of IPFS builders
 - **Beautiful**: By their nature, things that are simple, accessible and reusable are also beautiful
 
+
+
 ## IPFS GUI projects
 
 ### Primary projects
@@ -22,7 +24,8 @@ At present, primary focus is on the three "helper" apps that provide a GUI for I
 | [<img title="IPFS Companion" src="https://ipfs.io/images/ipfs-companion-hex.png" />][IPFS Companion] | [<img title="Web UI screenshot" src="img/webui-hex.png" />][IPFS Web UI] | [<img title="IPFS Desktop" src="https://ipfs.io/images/ipfs-desktop-hex.png" />][IPFS Desktop] |
 | [Browser extension](https://github.com/ipfs/ipfs-companion) for opening ipfs:// URLs, saving/sharing files, and more| [IPFS file manager and network explorer](https://github.com/ipfs-shipyard/ipfs-webui) in your browser | Launch and manage IPFS from a friendly, intuitive [desktop app](https://www.github.com/ipfs-shipyard/ipfs-desktop) |
 
-For a more comprehensive overview of the resources that come together to build, support, and provide education around Web UI, Desktop, and Companion, please see the [IPFS GUI Family Mental Model](https://ipfs-gui-mental-model.netlify.app/) and our [June 2020 user research report](https://docs.google.com/document/d/1V5sDSxMqhhplpcB8u8CffiGWHUvw-t4p_sn5vigdR90/edit#).
+For a more comprehensive overview of the resources that come together to build, support, and provide education around Web UI, Desktop, and Companion, please see the [IPFS GUI Family Mental Model](https://ipfs-gui-mental-model.netlify.app/) and our [June 2020 user research report](https://docs.google.com/document
+/d/1V5sDSxMqhhplpcB8u8CffiGWHUvw-t4p_sn5vigdR90/edit#).
 
 ### All projects
 
@@ -43,6 +46,14 @@ In addition to the apps above, IPFS GUIs can be considered to include aspects of
 - **[ipfs-shipyard/pinning-service-compliance](https://www.github.com/ipfs-shipyard/pinning-service-compliance)**: A test suite to help see which pinning service providers are correctly implementing the [pinning services spec](https://ipfs.github.io/pinning-services-api-spec/).
 - **[ipfs-shipyard/js-pinning-service-http-client](https://github.com/ipfs-shipyard/js-pinning-service-http-client)**: A pinning service client for the browser and node
 - **[kubo/dir-index-html](https://github.com/ipfs/go-ipfs/tree/master/assets/dir-index-html)**: Directory listing HTML for kubo (go-ipfs) gateways
+
+### Visual design guidelines
+
+[![IPFS-Brand-sheet-public](https://user-images.githubusercontent.com/157609/176955199-0f87b9bc-3a8d-4bd0-b9a3-48a9fe38f942.png)](https://www.figma.com/proto/mH0OlgikgKzLmbMNO3noBs/IPFS-Brand-sheet-public)
+
+- [Figma IPFS brand sheet](https://www.figma.com/proto/mH0OlgikgKzLmbMNO3noBs/IPFS-Brand-sheet-public)
+  - [Download PDF (2022)](https://ipfs.io/ipfs/QmcVRX6eArMmyTo2LQ5iDGD1BJ13FwFv8EB1oGaVmSwbwE?filename=ipfs-brand-sheet-2022.pdf)
+  - [Download Assets (2022)](https://ipfs.io/ipfs/QmSwE3QkkQf914n3RRMtCprxS8qMTtxEWFHneYppdAukeR?filename=ipfs-brand-assets-2022.zip)
 
 ## Get involved!
 
@@ -65,7 +76,12 @@ For casual conversation, our official chat rooms in [Matrix[(https://app.element
 
 ## Resources
 
-If you're looking for high-level research or visual and brand info, these resources may be helpful.
+If you're looking for high-level research or visual and brand info:
+
+- [IPFS brand sheet](https://www.figma.com/proto/mH0OlgikgKzLmbMNO3noBs/IPFS-Brand-sheet-public?node-id=22%3A2)
+  - see also: [Protocol Labs branding and visual design index](https://www.figma.com/proto/zwiBoppEK16FXV89bqDVgX/PL-%2B-project-branding-master-index?node-id=0%3A6&scaling=min-zoom)
+
+Also, these historical resources may be helpful:
 
 - [IPFS GUI Family Mental Model](https://ipfs-gui-mental-model.netlify.app/): June 2020 framework for understanding how IPFS’ various GUI-based tools work together to provide cohesive, consistent enablers to using and building on IPFS for a variety of developer and non-developer stakeholder groups
 - [June 2020 user research report](https://docs.google.com/document/d/1V5sDSxMqhhplpcB8u8CffiGWHUvw-t4p_sn5vigdR90/edit#): Survey analysis offering guidance on next actions for enhancements to the IPFS GUI tool family
