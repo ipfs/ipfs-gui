@@ -72,7 +72,7 @@ We're an open project and a friendly group, so please be nice and **read the [co
 
 **For the sake of async communication, archiving, and searchability, we strongly encourage discussions to happen in the context of GitHub issue comments whenever practical.**
 
-For casual conversation, our official chat rooms in [Matrix[(https://app.element.io/#/room/#lobby:ipfs.io) and [Discord](https://discord.gg/Z4H6tdECb9) are bridged, so you can join whichever you prefer. They can be used to ask questions and discuss with the community — however, while IPFS core developers are usually in these rooms, it can be hard to keep up with the running conversation and questions can be missed or disappear due to a lack of indexing.
+For casual conversation, our official chat rooms in [Matrix](https://app.element.io/#/room/#lobby:ipfs.io) and [Discord](https://discord.gg/Z4H6tdECb9) are bridged, so you can join whichever you prefer. They can be used to ask questions and discuss with the community — however, while IPFS core developers are usually in these rooms, it can be hard to keep up with the running conversation and questions can be missed or disappear due to a lack of indexing.
 
 ## Resources
 
