@@ -11,8 +11,6 @@ The IPFS project has an ongoing, long-running ambition to **create visual and in
 - **Reusable**: Offer compelling standards and atomic patterns to the community of IPFS builders
 - **Beautiful**: By their nature, things that are simple, accessible and reusable are also beautiful
 
-
-
 ## IPFS GUI projects
 
 ### Primary projects
@@ -24,8 +22,7 @@ At present, primary focus is on the three "helper" apps that provide a GUI for I
 | [<img title="IPFS Companion" src="https://ipfs.io/images/ipfs-companion-hex.png" />][IPFS Companion] | [<img title="Web UI screenshot" src="img/webui-hex.png" />][IPFS Web UI] | [<img title="IPFS Desktop" src="https://ipfs.io/images/ipfs-desktop-hex.png" />][IPFS Desktop] |
 | [Browser extension](https://github.com/ipfs/ipfs-companion) for opening ipfs:// URLs, saving/sharing files, and more| [IPFS file manager and network explorer](https://github.com/ipfs-shipyard/ipfs-webui) in your browser | Launch and manage IPFS from a friendly, intuitive [desktop app](https://www.github.com/ipfs-shipyard/ipfs-desktop) |
 
-For a more comprehensive overview of the resources that come together to build, support, and provide education around Web UI, Desktop, and Companion, please see the [IPFS GUI Family Mental Model](https://ipfs-gui-mental-model.netlify.app/) and our [June 2020 user research report](https://docs.google.com/document
-/d/1V5sDSxMqhhplpcB8u8CffiGWHUvw-t4p_sn5vigdR90/edit#).
+For a more comprehensive overview of the resources that come together to build, support, and provide education around Web UI, Desktop, and Companion, please see the [IPFS GUI Family Mental Model](https://ipfs-gui-mental-model.netlify.app/) and our [June 2020 user research report](https://docs.google.com/document/d/1V5sDSxMqhhplpcB8u8CffiGWHUvw-t4p_sn5vigdR90/edit#).
 
 ### All projects
 
