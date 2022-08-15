@@ -97,3 +97,25 @@ This `ipfs-gui` repo is intended primarily as a higher-order planning and discus
 [IPFS Web UI]: https://github.com/ipfs-shipyard/ipfs-webui "Web-based IPFS file manager and network explorer"
 [IPFS Desktop]: https://github.com/ipfs-shipyard/ipfs-desktop "Launch and manage IPFS from a desktop app"
 [IPFS Companion]: https://github.com/ipfs/ipfs-companion "Integrate IPFS with your browser"
+
+## Support goals
+
+### Platforms
+
+Due to the difficulty involved in debugging and development on platforms and versions not supported by github actions (and our CI/CD tests), we can only provide support for the [top 3 (mac, windows, ubuntu) `latest` platforms supported by github](https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners#supported-runners-and-hardware-resources). 
+
+If there is a new platform release, we will support bug-fixes and feature enhancements for that new platform, but will prioritize bug-fixes for things we can automate (CI/CD supported bugs/features).
+
+### Languages
+
+Due to a large demand and lack of time, as a general rule, we aim to support the latest (or most popular) officially supported versions of languages. 
+
+#### NodeJS
+
+See https://nodejs.org/en/about/releases/ for the officially supported NodeJS Versions. We aim to support Active LTS or Maintenance LTS versions with a best-effort support for Current versions.
+
+Support priority:
+
+1. Active LTS
+2. Maintenance LTS
+3. Current
