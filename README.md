@@ -112,6 +112,8 @@ Due to a large demand and lack of time, as a general rule, we aim to support the
 
 #### NodeJS
 
+> Production applications should only use Active LTS or Maintenance LTS releases.
+
 See https://nodejs.org/en/about/releases/ for the officially supported NodeJS Versions. We aim to support Active LTS or Maintenance LTS versions with a best-effort support for Current versions.
 
 Support priority:
