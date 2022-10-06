@@ -120,4 +120,3 @@ Support priority:
 
 1. Active LTS
 2. Maintenance LTS
-3. Current
