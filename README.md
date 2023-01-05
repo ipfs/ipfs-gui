@@ -24,9 +24,7 @@ At present, primary focus is on the three "helper" apps that provide a GUI for I
 
 For a more comprehensive overview of the resources that come together to build, support, and provide education around Web UI, Desktop, and Companion, please see the [IPFS GUI Family Mental Model](https://ipfs-gui-mental-model.netlify.app/) and our [June 2020 user research report](https://docs.google.com/document/d/1V5sDSxMqhhplpcB8u8CffiGWHUvw-t4p_sn5vigdR90/edit#).
 
-### All projects
-
-In addition to the apps above, IPFS GUIs can be considered to include aspects of all of the following repos:
+### Other IPFS GUI & Tools owned projects
 
 - **[ipfs/ipfs-gui](https://www.github.com/ipfs/ipfs-gui)**: This repo, used for overall planning and cross-repo work
 - **[ipfs/distributions/site](https://github.com/ipfs/distributions/tree/master/site)**: Visual side of https://dist.ipfs.io website
@@ -42,7 +40,16 @@ In addition to the apps above, IPFS GUIs can be considered to include aspects of
 - **[ipfs-shipyard/ipfs-ui-style-guide](https://www.github.com/ipfs-shipyard/ipfs-ui-style-guide)**: UI style guide for IPFS apps
 - **[ipfs-shipyard/pinning-service-compliance](https://www.github.com/ipfs-shipyard/pinning-service-compliance)**: A test suite to help see which pinning service providers are correctly implementing the [pinning services spec](https://ipfs.github.io/pinning-services-api-spec/).
 - **[ipfs-shipyard/js-pinning-service-http-client](https://github.com/ipfs-shipyard/js-pinning-service-http-client)**: A pinning service client for the browser and node
+- **[ipfs-shipyard/ipfs-dag-builder-vis](https://github.com/ipfs-shipyard/ipfs-dag-builder-vis)**: A tool for creating & modifying IPFS DAG structures visually. See https://dag.ipfs.tech/ 
+
+### Other GUI projects
+
+In addition to the apps & repos above, other relevant GUI related tools/apps that are not owned by the IPFS GUI & Tools team are:
+
 - **[kubo/dir-index-html](https://github.com/ipfs/go-ipfs/tree/master/assets/dir-index-html)**: Directory listing HTML for kubo (go-ipfs) gateways
+- **[filecoin-station/filecoin-station](https://github.com/filecoin-station/filecoin-station)**: Filecoin Station connects your computer’s idle resources to the Filecoin network and rewards you with FIL. Taking part is simple, just launch the app and start earning.
+- **[ipfs-shipyard/ipfs-check](https://github.com/ipfs-shipyard/ipfs-check)**: A tool for checking the accessibility of your data by IPFS peers
+- **[laurentsenta/pl-diagnose](https://github.com/laurentsenta/pl-diagnose)**: Reimplementation & extension of https://github.com/aschmahmann/ipfs-check
 
 ### Visual design guidelines
 
