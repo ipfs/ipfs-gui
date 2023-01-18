@@ -41,6 +41,9 @@ For a more comprehensive overview of the resources that come together to build, 
 - **[ipfs-shipyard/pinning-service-compliance](https://www.github.com/ipfs-shipyard/pinning-service-compliance)**: A test suite to help see which pinning service providers are correctly implementing the [pinning services spec](https://ipfs.github.io/pinning-services-api-spec/).
 - **[ipfs-shipyard/js-pinning-service-http-client](https://github.com/ipfs-shipyard/js-pinning-service-http-client)**: A pinning service client for the browser and node
 - **[ipfs-shipyard/ipfs-dag-builder-vis](https://github.com/ipfs-shipyard/ipfs-dag-builder-vis)**: A tool for creating & modifying IPFS DAG structures visually. See https://dag.ipfs.tech/ 
+- **[multiformats/cid-utils-website](https://github.com/multiformats/cid-utils-website)**: A website for decoding CIDs. See https://cid.ipfs.tech/#bafybeigdyrzt5sfp7udm7hu76uh7y26nf3efuylqabf3oclgtqy55fbzdi
+
+
 
 ### Other GUI projects
 
