@@ -36,7 +36,6 @@ For a more comprehensive overview of the resources that come together to build, 
   - **[ipfs/ipld-explorer-components](https://github.com/ipfs/ipld-explorer-components)**: React components for https://explore.ipld.io and ipfs-webui
 - **[ipfs-shipyard/i18n](https://github.com/ipfs-shipyard/i18n)**: Internationalization work across all IPFS projects
 - **[ipfs-shipyard/ipfs-css](https://www.github.com/ipfs-shipyard/ipfs-css)**: Single-purpose CSS rules and font-face config to add the IPFS look and feel to your UI
-- **[ipfs-shipyard/ipfs-ui-style-guide](https://www.github.com/ipfs-shipyard/ipfs-ui-style-guide)**: UI style guide for IPFS apps
 - **[ipfs-shipyard/pinning-service-compliance](https://www.github.com/ipfs-shipyard/pinning-service-compliance)**: A test suite to help see which pinning service providers are correctly implementing the [pinning services spec](https://ipfs.github.io/pinning-services-api-spec/).
 - **[ipfs-shipyard/js-pinning-service-http-client](https://github.com/ipfs-shipyard/js-pinning-service-http-client)**: A pinning service client for the browser and node
 - **[ipfs-shipyard/ipfs-dag-builder-vis](https://github.com/ipfs-shipyard/ipfs-dag-builder-vis)**: A tool for creating & modifying IPFS DAG structures visually. See https://dag.ipfs.tech/ 
@@ -52,6 +51,7 @@ In addition to the apps & repos above, other relevant GUI related tools/apps tha
 - **[filecoin-station/filecoin-station](https://github.com/filecoin-station/filecoin-station)**: Filecoin Station connects your computer’s idle resources to the Filecoin network and rewards you with FIL. Taking part is simple, just launch the app and start earning.
 - **[ipfs-shipyard/ipfs-check](https://github.com/ipfs-shipyard/ipfs-check)**: A tool for checking the accessibility of your data by IPFS peers
 - **[laurentsenta/pl-diagnose](https://github.com/laurentsenta/pl-diagnose)**: Reimplementation & extension of https://github.com/aschmahmann/ipfs-check
+- **[ipfs-shipyard/ipfs-ui-style-guide](https://www.github.com/ipfs-shipyard/ipfs-ui-style-guide)**: UI style guide for IPFS apps
 - **[ipfs-shipyard/ipfs-share-files](https://www.github.com/ipfs-shipyard/ipfs-share-files)**: Source code for https://share.ipfs.io
 
 ### Visual design guidelines
